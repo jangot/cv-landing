@@ -39,8 +39,8 @@ export const skillsData: Skill[] = [
   { name: 'Grafana', level: 60, category: 'devops' },
 
   // AI/ML
-  { name: 'OpenAI API', level: 60, category: 'ai-ml' },
-  { name: 'Semantic Search', level: 70, category: 'ai-ml' },
+  { name: 'OpenAI API', level: 65, category: 'ai-ml' },
+  { name: 'Semantic Search', level: 60, category: 'ai-ml' },
   { name: 'Vector Databases', level: 65, category: 'ai-ml' },
 
   // Payments
@@ -54,7 +54,7 @@ export const skillsData: Skill[] = [
   { name: 'Permit.IO', level: 60, category: 'tools' },
   { name: 'Selenium', level: 60, category: 'tools' },
   { name: 'jmeter', level: 60, category: 'tools' },
-  { name: 'Auth0', level: 65, category: 'payments' },
+  { name: 'Auth0', level: 65, category: 'tools' },
 ];
 
 export const skillCategories = [
