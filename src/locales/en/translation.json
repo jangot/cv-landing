@@ -1,0 +1,72 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "experience": "Experience",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Pavel Pulin",
+    "subtitle": "Tech Lead & Full-Stack Developer",
+    "description": "18+ years of development experience. From HTML coder to Tech Lead",
+    "location": "Israel",
+    "contactMe": "Contact Me",
+    "downloadCV": "Download CV",
+    "viewProjects": "View Projects"
+  },
+  "about": {
+    "title": "About Me",
+    "bio": "With over 18 years of experience in software development, I have progressed from an HTML coder to a versatile full-stack developer, technical leader, and infrastructure specialist. My career spans diverse roles and responsibilities, including frontend and backend development, designing REST APIs and GraphQL services, integrating third-party services, and setting up developer infrastructure.",
+    "education": {
+      "title": "Education",
+      "college": "St. Petersburg Construction Economics College (2005)",
+      "specialty": "Industrial civil engineering"
+    },
+    "certificates": {
+      "title": "Certificates",
+      "php": "Developing Web-application with PHP and MySQL (2011)",
+      "webdesign": "Web-design (2007)",
+      "architecture": "Introduction to computer architecture. Elements of operating systems (2021)",
+      "java": "Java web service development (2021)"
+    },
+    "languages": {
+      "title": "Languages",
+      "russian": "Russian — Native",
+      "english": "English — B2 — Upper Intermediate",
+      "hebrew": "Hebrew — Learning"
+    }
+  },
+  "experience": {
+    "title": "Work Experience",
+    "years": "18 years 4 months",
+    "current": "present"
+  },
+  "skills": {
+    "title": "Skills",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "database": "Database",
+    "devops": "DevOps",
+    "ai-ml": "AI/ML",
+    "payments": "Payments",
+    "tools": "Tools"
+  },
+  "projects": {
+    "title": "Projects",
+    "viewProject": "View Project",
+    "viewCode": "View Code"
+  },
+  "contact": {
+    "title": "Contact",
+    "preferred": "preferred method of communication",
+    "getInTouch": "Get in Touch"
+  },
+  "common": {
+    "download": "Download",
+    "view": "View",
+    "learnMore": "Learn More",
+    "backToTop": "Back to Top"
+  }
+}

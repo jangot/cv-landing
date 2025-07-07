@@ -1,0 +1,72 @@
+{
+  "nav": {
+    "home": "בית",
+    "about": "אודות",
+    "experience": "ניסיון",
+    "skills": "כישורים",
+    "projects": "פרויקטים",
+    "contact": "צור קשר"
+  },
+  "hero": {
+    "title": "Pavel Pulin",
+    "subtitle": "Tech Lead & Full-Stack Developer",
+    "description": "18+ שנות ניסיון בפיתוח. מקודד HTML ל-Tech Lead",
+    "location": "ישראל",
+    "contactMe": "צור קשר",
+    "downloadCV": "הורד קורות חיים",
+    "viewProjects": "צפה בפרויקטים"
+  },
+  "about": {
+    "title": "אודותיי",
+    "bio": "עם יותר מ-18 שנות ניסיון בפיתוח תוכנה, התקדמתי מקודד HTML למפתח full-stack רב-תכליתי, מנהיג טכני ומומחה תשתיות. הקריירה שלי כוללת תפקידים ואחריות מגוונים, כולל פיתוח frontend ו-backend, עיצוב REST APIs ו-GraphQL services, אינטגרציה של שירותים צד שלישי והקמת תשתיות מפתחים.",
+    "education": {
+      "title": "השכלה",
+      "college": "St. Petersburg Construction Economics College (2005)",
+      "specialty": "הנדסה אזרחית תעשייתית"
+    },
+    "certificates": {
+      "title": "תעודות",
+      "php": "פיתוח אפליקציות ווב עם PHP ו-MySQL (2011)",
+      "webdesign": "עיצוב אתרים (2007)",
+      "architecture": "מבוא לארכיטקטורת מחשבים. אלמנטים של מערכות הפעלה (2021)",
+      "java": "פיתוח שירותי ווב ב-Java (2021)"
+    },
+    "languages": {
+      "title": "שפות",
+      "russian": "רוסית — שפת אם",
+      "english": "אנגלית — B2 — Upper Intermediate",
+      "hebrew": "עברית — לומד"
+    }
+  },
+  "experience": {
+    "title": "ניסיון עבודה",
+    "years": "18 שנים 4 חודשים",
+    "current": "הווה"
+  },
+  "skills": {
+    "title": "כישורים",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "database": "מסדי נתונים",
+    "devops": "DevOps",
+    "ai-ml": "AI/ML",
+    "payments": "תשלומים",
+    "tools": "כלים"
+  },
+  "projects": {
+    "title": "פרויקטים",
+    "viewProject": "צפה בפרויקט",
+    "viewCode": "צפה בקוד"
+  },
+  "contact": {
+    "title": "צור קשר",
+    "preferred": "שיטת תקשורת מועדפת",
+    "getInTouch": "צור קשר"
+  },
+  "common": {
+    "download": "הורד",
+    "view": "צפה",
+    "learnMore": "למידע נוסף",
+    "backToTop": "חזור למעלה"
+  }
+}
