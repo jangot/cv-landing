@@ -19,7 +19,7 @@ export const skillsData: Skill[] = [
   { name: 'JWT', level: 85, category: 'backend' },
   { name: 'REST APIs', level: 90, category: 'backend' },
   { name: 'WebSocket', level: 75, category: 'backend' },
-  { name: 'RabbitMQ', level: 70, category: 'backend' },
+  { name: 'RabbitMQ', level: 60, category: 'backend' },
 
   // Database
   { name: 'PostgreSQL', level: 70, category: 'database' },
@@ -27,6 +27,7 @@ export const skillsData: Skill[] = [
   { name: 'Sequelize', level: 70, category: 'database' },
   { name: 'TypeORM', level: 75, category: 'database' },
   { name: 'Prisma', level: 80, category: 'database' },
+  { name: 'Qdrant', level: 70, category: 'database' },
 
   // DevOps
   { name: 'Docker', level: 75, category: 'devops' },
@@ -39,7 +40,6 @@ export const skillsData: Skill[] = [
 
   // AI/ML
   { name: 'OpenAI API', level: 60, category: 'ai-ml' },
-  { name: 'Qdrant', level: 70, category: 'ai-ml' },
   { name: 'Semantic Search', level: 70, category: 'ai-ml' },
   { name: 'Vector Databases', level: 65, category: 'ai-ml' },
 
