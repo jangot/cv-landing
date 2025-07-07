@@ -42,15 +42,15 @@ const Hero: React.FC = () => {
 
       switch (currentLanguage) {
         case 'ru':
-          resumeFile = '/cv-files/cv-ru.pdf';
+          resumeFile = '/cv-files/Pavel Pulin Fullstack ru.pdf';
           fileName = 'Pavel Pulin Fullstack.pdf';
           break;
         case 'en':
-          resumeFile = '/cv-files/cv-en.pdf';
+          resumeFile = '/cv-files/Pavel Pulin Fullstack en.pdf';
           fileName = 'Pavel Pulin Fullstack.pdf';
           break;
         default:
-          resumeFile = '/cv-files/cv-en.pdf';
+          resumeFile = '/cv-files/Pavel Pulin Fullstack en.pdf';
           fileName = 'Pavel Pulin Fullstack.pdf';
       }
 
