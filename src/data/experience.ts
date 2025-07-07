@@ -8,12 +8,7 @@ export const experienceData: Experience[] = [
     period: 'February 2025 — present',
     duration: '6 months',
     description: 'Technical Lead – U.S. Agricultural Platform',
-    achievements: [
-      'Acted as the technical lead for a project serving farms across the United States',
-      'Designed and implemented backend architecture and cloud infrastructure',
-      'Worked cross-functionally with DevOps, frontend teams, and stakeholders',
-      'Ensured system scalability, reliability, and maintainability'
-    ],
+    achievements: ['achievement1', 'achievement2', 'achievement3', 'achievement4'],
     technologies: ['Node.js', 'AWS', 'Cloud Architecture', 'DevOps', 'Team Leadership'],
     website: 'https://vallettasoftware.com'
   },
@@ -24,13 +19,7 @@ export const experienceData: Experience[] = [
     period: 'July 2024 — November 2024',
     duration: '5 months',
     description: 'AI-powered platform development',
-    achievements: [
-      'Developed new functionality for multiple websites, refactored old solutions',
-      'Integrated payment systems Stripe and Paddle for online payment processing',
-      'Set up authentication through Auth0 for secure user login',
-      'Integrated Zapier for workflow automation and connecting various services',
-      'Developed system using OpenAI API with Qdrant vector database for semantic search'
-    ],
+    achievements: ['achievement1', 'achievement2', 'achievement3', 'achievement4', 'achievement5'],
     technologies: ['React', 'Node.js', 'Stripe', 'Paddle', 'Auth0', 'OpenAI API', 'Qdrant', 'Zapier'],
     website: 'https://aithor.com'
   },
@@ -41,12 +30,7 @@ export const experienceData: Experience[] = [
     period: 'July 2023 — July 2024',
     duration: '1 year 1 month',
     description: 'Full-stack development and system integration',
-    achievements: [
-      'Designed, developed, and led new services from scratch',
-      'Supported and refactored legacy infrastructure',
-      'Integrated third-party systems into different parts of the architecture',
-      'Integrated Stripe payment system for processing subscriptions'
-    ],
+    achievements: ['achievement1', 'achievement2', 'achievement3', 'achievement4'],
     technologies: ['React', 'Node.js', 'Stripe', 'Legacy Systems', 'System Integration'],
     website: 'https://smile2impress.com'
   },
@@ -57,14 +41,7 @@ export const experienceData: Experience[] = [
     period: 'December 2018 — May 2023',
     duration: '4 years 6 months',
     description: 'Web infrastructure platform development',
-    achievements: [
-      'Developed and supported multiple services in distributed system',
-      'Refactored legacy common library and migrated to separate services',
-      'Developed GraphQL platform with Apollo Federation',
-      'Integrated new translation system (Smartcat)',
-      'Automated bulk updates across multiple web applications using Jenkins',
-      'Designed versioning system for client applications per environment'
-    ],
+    achievements: ['achievement1', 'achievement2', 'achievement3', 'achievement4', 'achievement5', 'achievement6'],
     technologies: ['Node.js', 'NestJS', 'GraphQL', 'Apollo Federation', 'Jenkins', 'Smartcat', 'Distributed Systems'],
     website: 'https://www.infobip.com'
   },
@@ -75,13 +52,7 @@ export const experienceData: Experience[] = [
     period: 'February 2017 — December 2018',
     duration: '1 year 11 months',
     description: 'Banking applications development',
-    achievements: [
-      'Worked in Agile team with designer and product owner',
-      'Developed frontend for mobile application and web using ReactJS',
-      'Designed interface for internal services for getting card information',
-      'Participated in interviews for new hires and mentored new developers',
-      'Represented company at conferences'
-    ],
+    achievements: ['achievement1', 'achievement2', 'achievement3', 'achievement4', 'achievement5'],
     technologies: ['React', 'React Native', 'Agile', 'Team Leadership', 'Mentoring'],
     website: 'https://www.alfabank.ru'
   },
@@ -92,13 +63,7 @@ export const experienceData: Experience[] = [
     period: 'July 2015 — July 2016',
     duration: '1 year 1 month',
     description: 'Internal product development',
-    achievements: [
-      'Wrote bot for parsing sites using selenium and docker',
-      'Created hundreds of bot instances to parse thousands of sites',
-      'Designed API and NodeJS api architecture for client panel',
-      'Cooperated with designers for building UI/UX',
-      'Developed UI interface of client panel'
-    ],
+    achievements: ['achievement1', 'achievement2', 'achievement3', 'achievement4', 'achievement5'],
     technologies: ['Node.js', 'Selenium', 'Docker', 'Web Scraping', 'API Design', 'UI/UX'],
     website: 'https://semrush.com'
   },
@@ -109,11 +74,7 @@ export const experienceData: Experience[] = [
     period: 'December 2013 — July 2015',
     duration: '1 year 8 months',
     description: 'Frontend development with AngularJS',
-    achievements: [
-      'Developing frontend with AngularJS',
-      'Configuring build process with Grunt and Gulp',
-      'JavaScript code optimization'
-    ],
+    achievements: ['achievement1', 'achievement2', 'achievement3'],
     technologies: ['AngularJS', 'Grunt', 'Gulp', 'JavaScript', 'Frontend Optimization'],
     website: 'https://www.geometria.ru'
   },
@@ -124,10 +85,7 @@ export const experienceData: Experience[] = [
     period: 'December 2011 — May 2012',
     duration: '6 months',
     description: 'New company project development',
-    achievements: [
-      'Frontend with jQuery',
-      'Backend with ZendFramework'
-    ],
+    achievements: ['achievement1', 'achievement2'],
     technologies: ['jQuery', 'ZendFramework', 'PHP', 'Frontend', 'Backend'],
     website: 'https://www.realweb.ru'
   },
@@ -138,11 +96,7 @@ export const experienceData: Experience[] = [
     period: 'November 2009 — December 2011',
     duration: '2 years 2 months',
     description: 'HTML coding and template integration',
-    achievements: [
-      'HTML coding',
-      'Template integration with XSLT',
-      'Server-side functionality development'
-    ],
+    achievements: ['achievement1', 'achievement2', 'achievement3'],
     technologies: ['HTML', 'XSLT', 'Server-side Development'],
     website: 'https://www.realweb.ru'
   },
@@ -153,9 +107,7 @@ export const experienceData: Experience[] = [
     period: 'April 2008 — October 2009',
     duration: '1 year 7 months',
     description: 'Commercial sites development',
-    achievements: [
-      'Commercial sites coder'
-    ],
+    achievements: ['achievement1'],
     technologies: ['HTML', 'CSS', 'Commercial Websites'],
     website: 'https://www.webmaster.spb.ru'
   },
@@ -166,10 +118,7 @@ export const experienceData: Experience[] = [
     period: 'September 2007 — April 2008',
     duration: '8 months',
     description: 'Commercial sites and CMS integration',
-    achievements: [
-      'Commercial sites coder',
-      'Template integration to UMI CMS'
-    ],
+    achievements: ['achievement1', 'achievement2'],
     technologies: ['HTML', 'CSS', 'UMI CMS', 'Template Integration'],
   },
   {
@@ -179,9 +128,7 @@ export const experienceData: Experience[] = [
     period: 'January 2007 — August 2007',
     duration: '8 months',
     description: 'Website creation and support',
-    achievements: [
-      'Website creation and support'
-    ],
+    achievements: ['achievement1'],
     technologies: ['HTML', 'CSS', 'Website Development'],
   }
 ];

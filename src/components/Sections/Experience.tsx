@@ -182,7 +182,7 @@ const Experience: React.FC = () => {
                           lineHeight: 1.6,
                         }}
                       >
-                        {achievement}
+                        {t(`experience.achievements.${experience.id}.achievement${idx + 1}`)}
                       </Typography>
                     ))}
                   </Box>

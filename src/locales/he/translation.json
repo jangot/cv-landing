@@ -55,7 +55,74 @@
     "keyAchievements": "הישגים מרכזיים:",
     "technologies": "טכנולוגיות:",
     "careerStart": "הקריירה החלה בשנת 2007 כקודד HTML",
-    "viewLinkedIn": "צפה בפרופיל המלא ב-LinkedIn"
+    "viewLinkedIn": "צפה בפרופיל המלא ב-LinkedIn",
+    "achievements": {
+      "valletta": {
+        "achievement1": "שימש כמנהיג טכני לפרויקט המשרת חוות ברחבי ארצות הברית",
+        "achievement2": "עיצב ויישם ארכיטקטורת backend ותשתית ענן",
+        "achievement3": "עבד בצורה בין-פונקציונלית עם DevOps, צוותי frontend ובעלי עניין",
+        "achievement4": "הבטיח יכולת הרחבה, אמינות ותחזוקתיות של המערכת"
+      },
+      "aithor": {
+        "achievement1": "פיתח פונקציונליות חדשה למספר אתרים, רפקטור פתרונות ישנים",
+        "achievement2": "שילב מערכות תשלום Stripe ו-Paddle לעיבוד תשלומים מקוונים",
+        "achievement3": "הגדיר אימות דרך Auth0 לכניסה מאובטחת של משתמשים",
+        "achievement4": "שילב Zapier לאוטומציה של תהליכי עבודה וחיבור שירותים שונים",
+        "achievement5": "פיתח מערכת באמצעות OpenAI API עם בסיס נתונים וקטורי Qdrant לחיפוש סמנטי"
+      },
+      "impress": {
+        "achievement1": "עיצב, פיתח והוביל שירותים חדשים מאפס",
+        "achievement2": "תמך ורפקטור תשתית מיושנת",
+        "achievement3": "שילב מערכות צד שלישי לחלקים שונים של הארכיטקטורה",
+        "achievement4": "שילב מערכת תשלום Stripe לעיבוד מנויים"
+      },
+      "infobip": {
+        "achievement1": "פיתח ותמך במספר שירותים במערכת מבוזרת",
+        "achievement2": "רפקטור ספריה משותפת מיושנת ומיגר לשירותים נפרדים",
+        "achievement3": "פיתח פלטפורמת GraphQL עם Apollo Federation",
+        "achievement4": "שילב מערכת תרגום חדשה (Smartcat)",
+        "achievement5": "אוטומט עדכונים המוניים במספר אפליקציות ווב באמצעות Jenkins",
+        "achievement6": "עיצב מערכת גרסאות לאפליקציות לקוח לפי סביבות"
+      },
+      "alfabank": {
+        "achievement1": "עבד בצוות Agile עם מעצב ובעל מוצר",
+        "achievement2": "פיתח frontend לאפליקציה ניידת וווב באמצעות ReactJS",
+        "achievement3": "עיצב ממשק לשירותים פנימיים לקבלת מידע על כרטיסים",
+        "achievement4": "השתתף בראיונות לעובדים חדשים וליווה מפתחים חדשים",
+        "achievement5": "ייצג את החברה בכנסים"
+      },
+      "semrush": {
+        "achievement1": "כתב בוט לפארסינג אתרים באמצעות Selenium ו-Docker",
+        "achievement2": "יצר מאות מופעי בוטים לפארסינג אלפי אתרים",
+        "achievement3": "עיצב API וארכיטקטורת NodeJS API לפאנל לקוחות",
+        "achievement4": "שיתף פעולה עם מעצבים לבניית UI/UX",
+        "achievement5": "פיתח ממשק UI של פאנל לקוחות"
+      },
+      "geometria": {
+        "achievement1": "פיתוח frontend עם AngularJS",
+        "achievement2": "הגדרת תהליך בנייה עם Grunt ו-Gulp",
+        "achievement3": "אופטימיזציה של קוד JavaScript"
+      },
+      "realweb": {
+        "achievement1": "Frontend עם jQuery",
+        "achievement2": "Backend עם ZendFramework"
+      },
+      "realweb-early": {
+        "achievement1": "קידוד HTML",
+        "achievement2": "אינטגרציה של תבניות עם XSLT",
+        "achievement3": "פיתוח פונקציונליות צד שרת"
+      },
+      "webmaster": {
+        "achievement1": "קודד אתרים מסחריים"
+      },
+      "altitudo": {
+        "achievement1": "קודד אתרים מסחריים",
+        "achievement2": "אינטגרציה של תבניות ל-UMI CMS"
+      },
+      "freelance": {
+        "achievement1": "יצירה ותמיכה באתרים"
+      }
+    }
   },
   "skills": {
     "title": "כישורים",

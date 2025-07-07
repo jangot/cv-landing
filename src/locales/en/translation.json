@@ -55,7 +55,74 @@
     "keyAchievements": "Key Achievements:",
     "technologies": "Technologies:",
     "careerStart": "Career started in 2007 as an HTML coder",
-    "viewLinkedIn": "View full profile on LinkedIn"
+    "viewLinkedIn": "View full profile on LinkedIn",
+    "achievements": {
+      "valletta": {
+        "achievement1": "Acted as the technical lead for a project serving farms across the United States",
+        "achievement2": "Designed and implemented backend architecture and cloud infrastructure",
+        "achievement3": "Worked cross-functionally with DevOps, frontend teams, and stakeholders",
+        "achievement4": "Ensured system scalability, reliability, and maintainability"
+      },
+      "aithor": {
+        "achievement1": "Developed new functionality for multiple websites, refactored old solutions",
+        "achievement2": "Integrated payment systems Stripe and Paddle for online payment processing",
+        "achievement3": "Set up authentication through Auth0 for secure user login",
+        "achievement4": "Integrated Zapier for workflow automation and connecting various services",
+        "achievement5": "Developed system using OpenAI API with Qdrant vector database for semantic search"
+      },
+      "impress": {
+        "achievement1": "Designed, developed, and led new services from scratch",
+        "achievement2": "Supported and refactored legacy infrastructure",
+        "achievement3": "Integrated third-party systems into different parts of the architecture",
+        "achievement4": "Integrated Stripe payment system for processing subscriptions"
+      },
+      "infobip": {
+        "achievement1": "Developed and supported multiple services in distributed system",
+        "achievement2": "Refactored legacy common library and migrated to separate services",
+        "achievement3": "Developed GraphQL platform with Apollo Federation",
+        "achievement4": "Integrated new translation system (Smartcat)",
+        "achievement5": "Automated bulk updates across multiple web applications using Jenkins",
+        "achievement6": "Designed versioning system for client applications per environment"
+      },
+      "alfabank": {
+        "achievement1": "Worked in Agile team with designer and product owner",
+        "achievement2": "Developed frontend for mobile application and web using ReactJS",
+        "achievement3": "Designed interface for internal services for getting card information",
+        "achievement4": "Participated in interviews for new hires and mentored new developers",
+        "achievement5": "Represented company at conferences"
+      },
+      "semrush": {
+        "achievement1": "Wrote bot for parsing sites using selenium and docker",
+        "achievement2": "Created hundreds of bot instances to parse thousands of sites",
+        "achievement3": "Designed API and NodeJS api architecture for client panel",
+        "achievement4": "Cooperated with designers for building UI/UX",
+        "achievement5": "Developed UI interface of client panel"
+      },
+      "geometria": {
+        "achievement1": "Developing frontend with AngularJS",
+        "achievement2": "Configuring build process with Grunt and Gulp",
+        "achievement3": "JavaScript code optimization"
+      },
+      "realweb": {
+        "achievement1": "Frontend with jQuery",
+        "achievement2": "Backend with ZendFramework"
+      },
+      "realweb-early": {
+        "achievement1": "HTML coding",
+        "achievement2": "Template integration with XSLT",
+        "achievement3": "Server-side functionality development"
+      },
+      "webmaster": {
+        "achievement1": "Commercial sites coder"
+      },
+      "altitudo": {
+        "achievement1": "Commercial sites coder",
+        "achievement2": "Template integration to UMI CMS"
+      },
+      "freelance": {
+        "achievement1": "Website creation and support"
+      }
+    }
   },
   "skills": {
     "title": "Skills",
