@@ -21,7 +21,7 @@ import { useLanguage } from '../../contexts/LanguageContext';
 const Hero: React.FC = () => {
   const { t } = useTranslation();
   const theme = useTheme();
-  const { isRTL } = useLanguage();
+  const { isRTL, currentLanguage } = useLanguage();
 
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
@@ -34,9 +34,41 @@ const Hero: React.FC = () => {
     window.open('https://t.me/jangot', '_blank');
   };
 
-  const handleDownloadCV = () => {
-    // Здесь можно добавить логику скачивания резюме
-    console.log('Download CV');
+    const handleDownloadCV = () => {
+    try {
+      // Определяем файл резюме в зависимости от текущего языка
+      let resumeFile = '';
+      let fileName = '';
+
+      switch (currentLanguage) {
+        case 'ru':
+          resumeFile = '/cv-files/cv-ru.pdf';
+          fileName = 'Pavel Pulin Fullstack.pdf';
+          break;
+        case 'en':
+          resumeFile = '/cv-files/cv-en.pdf';
+          fileName = 'Pavel Pulin Fullstack.pdf';
+          break;
+        default:
+          resumeFile = '/cv-files/cv-en.pdf';
+          fileName = 'Pavel Pulin Fullstack.pdf';
+      }
+
+      // Создаем ссылку для скачивания
+      const link = document.createElement('a');
+      link.href = resumeFile;
+      link.download = fileName;
+      link.target = '_blank';
+
+      // Добавляем ссылку в DOM, кликаем по ней и удаляем
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    } catch (error) {
+      console.error('Ошибка при скачивании резюме:', error);
+      // Можно добавить уведомление пользователю об ошибке
+      alert(t('hero.downloadError') || 'Ошибка при скачивании резюме');
+    }
   };
 
   return (
