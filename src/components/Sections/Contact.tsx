@@ -7,7 +7,6 @@ import {
   CardContent,
   Button,
   Chip,
-  useTheme,
 } from '@mui/material';
 import {
   Telegram,
@@ -24,7 +23,6 @@ import type { Contact as ContactType } from '../../types';
 
 const Contact: React.FC = () => {
   const { t } = useTranslation();
-  const theme = useTheme();
 
   const containerVariants = {
     hidden: { opacity: 0 },
