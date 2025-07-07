@@ -18,10 +18,12 @@ import {
 } from '@mui/icons-material';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
+import { useLanguage } from '../../contexts/LanguageContext';
 
 const About: React.FC = () => {
   const { t } = useTranslation();
   const theme = useTheme();
+  const { isRTL } = useLanguage();
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -167,7 +169,11 @@ const About: React.FC = () => {
                 >
                   <CardContent sx={{ p: 3 }}>
                     <Box sx={{ display: 'flex', alignItems: 'center', mb: 2 }}>
-                      <School sx={{ color: 'primary.main', mr: 1 }} />
+                      <School sx={{
+                        color: 'primary.main',
+                        marginRight: isRTL ? 0 : 1,
+                        marginLeft: isRTL ? 1 : 0
+                      }} />
                       <Typography variant="h6" sx={{ fontWeight: 600 }}>
                         {t('about.education.title')}
                       </Typography>
@@ -192,7 +198,11 @@ const About: React.FC = () => {
                 >
                   <CardContent sx={{ p: 3 }}>
                     <Box sx={{ display: 'flex', alignItems: 'center', mb: 2 }}>
-                      <EmojiEvents sx={{ color: 'primary.main', mr: 1 }} />
+                      <EmojiEvents sx={{
+                        color: 'primary.main',
+                        marginRight: isRTL ? 0 : 1,
+                        marginLeft: isRTL ? 1 : 0
+                      }} />
                       <Typography variant="h6" sx={{ fontWeight: 600 }}>
                         {t('about.certificates.title')}
                       </Typography>
@@ -224,7 +234,11 @@ const About: React.FC = () => {
                 >
                   <CardContent sx={{ p: 3 }}>
                     <Box sx={{ display: 'flex', alignItems: 'center', mb: 2 }}>
-                      <Language sx={{ color: 'primary.main', mr: 1 }} />
+                      <Language sx={{
+                        color: 'primary.main',
+                        marginRight: isRTL ? 0 : 1,
+                        marginLeft: isRTL ? 1 : 0
+                      }} />
                       <Typography variant="h6" sx={{ fontWeight: 600 }}>
                         {t('about.languages.title')}
                       </Typography>

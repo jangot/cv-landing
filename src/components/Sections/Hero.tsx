@@ -16,10 +16,12 @@ import {
 } from '@mui/icons-material';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
+import { useLanguage } from '../../contexts/LanguageContext';
 
 const Hero: React.FC = () => {
   const { t } = useTranslation();
   const theme = useTheme();
+  const { isRTL } = useLanguage();
 
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
@@ -109,7 +111,11 @@ const Hero: React.FC = () => {
               </Typography>
 
               <Box sx={{ display: 'flex', alignItems: 'center', mb: 4 }}>
-                <LocationOn sx={{ color: 'primary.main', mr: 1 }} />
+                <LocationOn sx={{
+                  color: 'primary.main',
+                  marginRight: isRTL ? 0 : 1,
+                  marginLeft: isRTL ? 1 : 0
+                }} />
                 <Typography variant="body1" color="text.secondary">
                   {t('hero.location')}
                 </Typography>
@@ -147,6 +153,10 @@ const Hero: React.FC = () => {
                     py: 1.5,
                     fontSize: '1rem',
                     fontWeight: 600,
+                    '& .MuiButton-startIcon': {
+                      marginRight: isRTL ? 0 : undefined,
+                      marginLeft: isRTL ? 1 : undefined,
+                    },
                   }}
                 >
                   {t('hero.contactMe')}
@@ -164,6 +174,10 @@ const Hero: React.FC = () => {
                     fontWeight: 600,
                     borderColor: 'primary.main',
                     color: 'primary.main',
+                    '& .MuiButton-startIcon': {
+                      marginRight: isRTL ? 0 : undefined,
+                      marginLeft: isRTL ? 1 : undefined,
+                    },
                     '&:hover': {
                       borderColor: 'primary.dark',
                       backgroundColor: 'rgba(100, 181, 246, 0.1)',
@@ -184,6 +198,10 @@ const Hero: React.FC = () => {
                     fontSize: '1rem',
                     fontWeight: 600,
                     color: 'text.secondary',
+                    '& .MuiButton-startIcon': {
+                      marginRight: isRTL ? 0 : undefined,
+                      marginLeft: isRTL ? 1 : undefined,
+                    },
                     '&:hover': {
                       color: 'primary.main',
                       backgroundColor: 'rgba(100, 181, 246, 0.1)',

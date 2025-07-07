@@ -16,9 +16,11 @@ import {
 } from '@mui/icons-material';
 import { useTranslation } from 'react-i18next';
 import { experienceData } from '../../data/experience';
+import { useLanguage } from '../../contexts/LanguageContext';
 
 const Experience: React.FC = () => {
   const { t } = useTranslation();
+  const { isRTL } = useLanguage();
 
   const handleCompanyClick = (website?: string) => {
     if (website) {
@@ -88,7 +90,12 @@ const Experience: React.FC = () => {
                 <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', mb: 2 }}>
                   <Box sx={{ flex: 1 }}>
                     <Box sx={{ display: 'flex', alignItems: 'center', mb: 1 }}>
-                      <Business sx={{ color: 'primary.main', mr: 1, fontSize: 20 }} />
+                      <Business sx={{
+                        color: 'primary.main',
+                        marginRight: isRTL ? 0 : 1,
+                        marginLeft: isRTL ? 1 : 0,
+                        fontSize: 20
+                      }} />
                       <Typography
                         variant="h5"
                         component="h3"
@@ -105,7 +112,12 @@ const Experience: React.FC = () => {
                         {experience.company}
                       </Typography>
                       {experience.website && (
-                        <OpenInNew sx={{ ml: 1, fontSize: 16, color: 'text.secondary' }} />
+                        <OpenInNew sx={{
+                          marginLeft: isRTL ? 0 : 1,
+                          marginRight: isRTL ? 1 : 0,
+                          fontSize: 16,
+                          color: 'text.secondary'
+                        }} />
                       )}
                     </Box>
 
@@ -134,7 +146,12 @@ const Experience: React.FC = () => {
 
                   <Box sx={{ textAlign: 'right', ml: 2 }}>
                     <Box sx={{ display: 'flex', alignItems: 'center', mb: 1 }}>
-                      <CalendarToday sx={{ color: 'text.secondary', mr: 0.5, fontSize: 16 }} />
+                      <CalendarToday sx={{
+                        color: 'text.secondary',
+                        marginRight: isRTL ? 0 : 0.5,
+                        marginLeft: isRTL ? 0.5 : 0,
+                        fontSize: 16
+                      }} />
                       <Typography variant="body2" color="text.secondary">
                         {experience.period}
                       </Typography>
@@ -209,6 +226,10 @@ const Experience: React.FC = () => {
             sx={{
               borderColor: 'primary.main',
               color: 'primary.main',
+              '& .MuiButton-startIcon': {
+                marginRight: isRTL ? 0 : undefined,
+                marginLeft: isRTL ? 1 : undefined,
+              },
               '&:hover': {
                 borderColor: 'primary.dark',
                 backgroundColor: 'rgba(100, 181, 246, 0.1)',

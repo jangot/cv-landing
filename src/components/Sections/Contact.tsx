@@ -20,9 +20,11 @@ import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { contactData } from '../../data/contact';
 import type { Contact as ContactType } from '../../types';
+import { useLanguage } from '../../contexts/LanguageContext';
 
 const Contact: React.FC = () => {
   const { t } = useTranslation();
+  const { isRTL } = useLanguage();
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -168,6 +170,10 @@ const Contact: React.FC = () => {
                               borderColor: contact.isPreferred ? 'primary.main' : 'rgba(255, 255, 255, 0.2)',
                               color: contact.isPreferred ? 'primary.main' : 'text.primary',
                               backgroundColor: contact.isPreferred ? 'rgba(100, 181, 246, 0.1)' : 'transparent',
+                              '& .MuiButton-startIcon': {
+                                marginRight: isRTL ? 0 : undefined,
+                                marginLeft: isRTL ? 1 : undefined,
+                              },
                               '&:hover': {
                                 borderColor: 'primary.main',
                                 backgroundColor: 'rgba(100, 181, 246, 0.15)',
@@ -309,6 +315,10 @@ const Contact: React.FC = () => {
                   fontSize: '1.1rem',
                   fontWeight: 600,
                   background: 'linear-gradient(45deg, #64b5f6, #4caf50)',
+                  '& .MuiButton-startIcon': {
+                    marginRight: isRTL ? 0 : undefined,
+                    marginLeft: isRTL ? 1 : undefined,
+                  },
                   '&:hover': {
                     background: 'linear-gradient(45deg, #1976d2, #388e3c)',
                     transform: 'translateY(-2px)',
