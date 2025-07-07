@@ -85,7 +85,15 @@
     "variousTechnologies": "Various technologies",
     "technologies": "Technologies:",
     "projectDescription": "Each project demonstrates different aspects of development: from technical leadership to AI/ML integration",
-    "moreProjectsLinkedIn": "More projects on LinkedIn"
+    "moreProjectsLinkedIn": "More projects on LinkedIn",
+    "agriculturalPlatform": "Technical leadership in developing a platform for US agricultural farms. Backend architecture and cloud infrastructure, ensuring system scalability and reliability.",
+    "aiSearchSystem": "Semantic search system using OpenAI API and Qdrant vector database. Integration with multiple websites and workflow automation.",
+    "paymentIntegration": "Integration of Stripe and Paddle payment systems for subscription and one-time payment processing. Setting up authentication through Auth0.",
+    "graphqlPlatform": "Development of GraphQL platform with Apollo Federation. Creation and implementation of subgraph services for distributed system.",
+    "parsingBotSystem": "Website parsing system using Selenium and Docker. Creating hundreds of bot instances to process thousands of sites.",
+    "bankingApplications": "Frontend development for mobile application and bank web interface. Creating interfaces for internal services.",
+    "legacyRefactoring": "Refactoring legacy libraries and migration to microservice architecture. Implementation of NestJS and CI/CD process setup.",
+    "translationSystem": "Integration of Smartcat translation system with automation of repository parsing and phrase loading."
   },
   "contact": {
     "title": "Contact",

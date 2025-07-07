@@ -4,7 +4,7 @@ export const projectsData: Project[] = [
   {
     id: 'agricultural-platform',
     title: 'U.S. Agricultural Platform',
-    description: 'Техническое лидерство в разработке платформы для фермерских хозяйств США. Архитектура backend и облачная инфраструктура, обеспечение масштабируемости и надежности системы.',
+    description: 'projects.agriculturalPlatform',
     technologies: ['Node.js', 'AWS', 'Cloud Architecture', 'DevOps', 'Team Leadership'],
     link: 'https://vallettasoftware.com',
     github: undefined,
@@ -12,7 +12,7 @@ export const projectsData: Project[] = [
   {
     id: 'ai-search-system',
     title: 'AI-powered Search System',
-    description: 'Система семантического поиска с использованием OpenAI API и векторной базы данных Qdrant. Интеграция с множественными веб-сайтами и автоматизация рабочих процессов.',
+    description: 'projects.aiSearchSystem',
     technologies: ['OpenAI API', 'Qdrant', 'React', 'Node.js', 'Semantic Search', 'Zapier'],
     link: 'https://aithor.com',
     github: undefined,
@@ -20,7 +20,7 @@ export const projectsData: Project[] = [
   {
     id: 'payment-integration',
     title: 'Payment Integration Systems',
-    description: 'Интеграция платежных систем Stripe и Paddle для обработки подписок и разовых платежей. Настройка аутентификации через Auth0.',
+    description: 'projects.paymentIntegration',
     technologies: ['Stripe', 'Paddle', 'Auth0', 'React', 'Node.js', 'Payment Processing'],
     link: 'https://smile2impress.com',
     github: undefined,
@@ -28,7 +28,7 @@ export const projectsData: Project[] = [
   {
     id: 'graphql-platform',
     title: 'GraphQL Platform',
-    description: 'Разработка GraphQL платформы с Apollo Federation. Создание и реализация subgraph сервисов для распределенной системы.',
+    description: 'projects.graphqlPlatform',
     technologies: ['GraphQL', 'Apollo Federation', 'NestJS', 'Node.js', 'Distributed Systems'],
     link: 'https://www.infobip.com',
     github: undefined,
@@ -36,7 +36,7 @@ export const projectsData: Project[] = [
   {
     id: 'parsing-bot-system',
     title: 'Parsing Bot System',
-    description: 'Система парсинга сайтов с использованием Selenium и Docker. Создание сотен экземпляров ботов для обработки тысяч сайтов.',
+    description: 'projects.parsingBotSystem',
     technologies: ['Selenium', 'Docker', 'Node.js', 'Web Scraping', 'API Design'],
     link: 'https://semrush.com',
     github: undefined,
@@ -44,7 +44,7 @@ export const projectsData: Project[] = [
   {
     id: 'banking-applications',
     title: 'Banking Applications',
-    description: 'Разработка frontend для мобильного приложения и веб-интерфейса банка. Создание интерфейсов для внутренних сервисов.',
+    description: 'projects.bankingApplications',
     technologies: ['React', 'React Native', 'Agile', 'Team Leadership', 'Banking Systems'],
     link: 'https://www.alfabank.ru',
     github: undefined,
@@ -52,7 +52,7 @@ export const projectsData: Project[] = [
   {
     id: 'legacy-refactoring',
     title: 'Legacy System Refactoring',
-    description: 'Рефакторинг устаревших библиотек и миграция к микросервисной архитектуре. Внедрение NestJS и настройка CI/CD процессов.',
+    description: 'projects.legacyRefactoring',
     technologies: ['NestJS', 'Jenkins', 'Legacy Systems', 'Microservices', 'CI/CD'],
     link: 'https://www.infobip.com',
     github: undefined,
@@ -60,7 +60,7 @@ export const projectsData: Project[] = [
   {
     id: 'translation-system',
     title: 'Translation System Integration',
-    description: 'Интеграция системы переводов Smartcat с автоматизацией парсинга репозиториев и загрузки фраз.',
+    description: 'projects.translationSystem',
     technologies: ['Smartcat', 'Automation', 'Repository Parsing', 'Translation Management'],
     link: 'https://www.infobip.com',
     github: undefined,

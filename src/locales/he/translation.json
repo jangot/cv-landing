@@ -85,7 +85,15 @@
     "variousTechnologies": "טכנולוגיות שונות",
     "technologies": "טכנולוגיות:",
     "projectDescription": "כל פרויקט מדגים היבטים שונים של פיתוח: ממנהיגות טכנית ועד אינטגרציה של AI/ML",
-    "moreProjectsLinkedIn": "עוד פרויקטים ב-LinkedIn"
+    "moreProjectsLinkedIn": "עוד פרויקטים ב-LinkedIn",
+    "agriculturalPlatform": "מנהיגות טכנית בפיתוח פלטפורמה לחוות חקלאיות בארה\"ב. ארכיטקטורת backend ותשתית ענן, הבטחת יכולת הרחבה ואמינות המערכת.",
+    "aiSearchSystem": "מערכת חיפוש סמנטי באמצעות OpenAI API ובסיס נתונים וקטורי Qdrant. אינטגרציה עם אתרים מרובים ואוטומציה של תהליכי עבודה.",
+    "paymentIntegration": "אינטגרציה של מערכות תשלום Stripe ו-Paddle לעיבוד מנויים ותשלומים חד פעמיים. הגדרת אימות דרך Auth0.",
+    "graphqlPlatform": "פיתוח פלטפורמת GraphQL עם Apollo Federation. יצירה ויישום של שירותי subgraph למערכת מבוזרת.",
+    "parsingBotSystem": "מערכת פארסינג אתרים באמצעות Selenium ו-Docker. יצירת מאות מופעי בוטים לעיבוד אלפי אתרים.",
+    "bankingApplications": "פיתוח frontend לאפליקציה ניידת וממשק ווב של בנק. יצירת ממשקים לשירותים פנימיים.",
+    "legacyRefactoring": "רפקטורינג ספריות מיושנות ומיגרציה לארכיטקטורת מיקרו-שירותים. יישום NestJS והגדרת תהליכי CI/CD.",
+    "translationSystem": "אינטגרציה של מערכת התרגום Smartcat עם אוטומציה של פארסינג רפוזיטורי וטעינת ביטויים."
   },
   "contact": {
     "title": "צור קשר",

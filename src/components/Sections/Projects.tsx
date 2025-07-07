@@ -190,7 +190,7 @@ const Projects: React.FC = () => {
                         minHeight: 80,
                       }}
                     >
-                      {project.description}
+                      {project.description.startsWith('projects.') ? t(project.description) : project.description}
                     </Typography>
 
                     <Box sx={{ mb: 3 }}>
