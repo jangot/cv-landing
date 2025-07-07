@@ -221,13 +221,15 @@ const Hero: React.FC = () => {
               transition={{ duration: 0.8, delay: 0.2 }}
             >
               <Avatar
+                // src="/avatar.jpg"
+                // alt="Profile Avatar"
                 sx={{
                   width: { xs: 250, md: 350 },
                   height: { xs: 250, md: 350 },
                   border: '4px solid',
                   borderColor: 'primary.main',
-                  boxShadow: '0 8px 32px rgba(100, 181, 246, 0.3)',
                   background: 'linear-gradient(45deg, #64b5f6, #4caf50)',
+                  boxShadow: '0 8px 32px rgba(100, 181, 246, 0.3)',
                   fontSize: { xs: '4rem', md: '6rem' },
                   fontWeight: 700,
                 }}

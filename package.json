@@ -54,5 +54,8 @@
   },
   "overrides": {
     "typescript": "^5.0.0"
+  },
+  "devDependencies": {
+    "puppeteer": "^24.12.0"
   }
 }
