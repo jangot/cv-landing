@@ -117,7 +117,7 @@ const Projects: React.FC = () => {
                 fontWeight: 500,
               }}
             >
-              {projectsData.length} ключевых проектов • Различные технологии
+              {projectsData.length} {t('projects.keyProjects')} • {t('projects.variousTechnologies')}
             </Typography>
           </motion.div>
 
@@ -195,7 +195,7 @@ const Projects: React.FC = () => {
 
                     <Box sx={{ mb: 3 }}>
                       <Typography variant="body2" sx={{ fontWeight: 600, mb: 1, color: 'text.primary' }}>
-                        Технологии:
+                        {t('projects.technologies')}
                       </Typography>
                       <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 1 }}>
                         {project.technologies.slice(0, 4).map((tech, idx) => (
@@ -279,7 +279,7 @@ const Projects: React.FC = () => {
           <motion.div variants={itemVariants}>
             <Box sx={{ textAlign: 'center', mt: 6 }}>
               <Typography variant="body1" color="text.secondary" sx={{ mb: 3 }}>
-                Каждый проект демонстрирует различные аспекты разработки: от технического лидерства до интеграции AI/ML
+                {t('projects.projectDescription')}
               </Typography>
               <Button
                 variant="outlined"
@@ -298,7 +298,7 @@ const Projects: React.FC = () => {
                   }
                 }}
               >
-                Больше проектов на LinkedIn
+                {t('projects.moreProjectsLinkedIn')}
               </Button>
             </Box>
           </motion.div>

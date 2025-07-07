@@ -119,7 +119,7 @@ const Contact: React.FC = () => {
                 fontWeight: 500,
               }}
             >
-              {t('contact.getInTouch')} • Готов к новым проектам
+              {t('contact.getInTouch')} • {t('contact.readyForProjects')}
             </Typography>
           </motion.div>
 
@@ -145,7 +145,7 @@ const Contact: React.FC = () => {
                         textAlign: 'center',
                       }}
                     >
-                      Связаться со мной
+                      {t('contact.contactMe')}
                     </Typography>
 
                     <Box sx={{ display: 'flex', flexDirection: 'column', gap: 3 }}>
@@ -178,7 +178,7 @@ const Contact: React.FC = () => {
                           >
                             <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', flex: 1 }}>
                               <Typography variant="body1" sx={{ fontWeight: 600 }}>
-                                {contact.label}
+                                {contact.label.startsWith('contact.') ? t(contact.label) : contact.label}
                               </Typography>
                               {contact.isPreferred && (
                                 <Chip
@@ -219,7 +219,7 @@ const Contact: React.FC = () => {
                         textAlign: 'center',
                       }}
                     >
-                      Информация
+                      {t('contact.information')}
                     </Typography>
 
                     <Box sx={{ display: 'flex', flexDirection: 'column', gap: 3 }}>
@@ -228,13 +228,13 @@ const Contact: React.FC = () => {
                           <LocationOn sx={{ color: 'primary.main', fontSize: 28 }} />
                           <Box>
                             <Typography variant="h6" sx={{ fontWeight: 600, color: 'text.primary' }}>
-                              Локация
+                              {t('contact.location')}
                             </Typography>
                             <Typography variant="body2" color="text.secondary">
-                              Израиль
+                              {t('hero.location')}
                             </Typography>
                             <Typography variant="body2" color="text.secondary">
-                              Гражданство: Россия, Израиль
+                              {t('contact.citizenship')}
                             </Typography>
                           </Box>
                         </Box>
@@ -245,13 +245,13 @@ const Contact: React.FC = () => {
                           <Schedule sx={{ color: 'primary.main', fontSize: 28 }} />
                           <Box>
                             <Typography variant="h6" sx={{ fontWeight: 600, color: 'text.primary' }}>
-                              Доступность
+                              {t('contact.availability')}
                             </Typography>
                             <Typography variant="body2" color="text.secondary">
-                              Полная занятость, проектная работа
+                              {t('contact.fullTime')}
                             </Typography>
                             <Typography variant="body2" color="text.secondary">
-                              Удаленная работа, полный день
+                              {t('contact.remoteWork')}
                             </Typography>
                           </Box>
                         </Box>
@@ -262,13 +262,13 @@ const Contact: React.FC = () => {
                           <Telegram sx={{ color: 'primary.main', fontSize: 28 }} />
                           <Box>
                             <Typography variant="h6" sx={{ fontWeight: 600, color: 'text.primary' }}>
-                              Предпочтительный способ связи
+                              {t('contact.preferredContact')}
                             </Typography>
                             <Typography variant="body2" color="text.secondary">
-                              Telegram - самый быстрый способ связаться
+                              {t('contact.telegramFastest')}
                             </Typography>
                             <Typography variant="body2" color="text.secondary">
-                              Отвечаю в течение нескольких часов
+                              {t('contact.respondHours')}
                             </Typography>
                           </Box>
                         </Box>
@@ -277,14 +277,14 @@ const Contact: React.FC = () => {
 
                     <Box sx={{ mt: 4, p: 3, backgroundColor: 'rgba(100, 181, 246, 0.1)', borderRadius: 2 }}>
                       <Typography variant="body1" sx={{ fontWeight: 600, mb: 2, color: 'text.primary' }}>
-                        Готов к сотрудничеству в проектах:
+                        {t('contact.readyForCooperation')}
                       </Typography>
                       <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 1 }}>
-                        <Chip label="Tech Lead" color="primary" variant="outlined" />
-                        <Chip label="Full-Stack" color="secondary" variant="outlined" />
-                        <Chip label="Architecture" color="success" variant="outlined" />
-                        <Chip label="DevOps" color="warning" variant="outlined" />
-                        <Chip label="AI/ML" color="error" variant="outlined" />
+                        <Chip label={t('contact.techLead')} color="primary" variant="outlined" />
+                        <Chip label={t('contact.fullStack')} color="secondary" variant="outlined" />
+                        <Chip label={t('contact.architecture')} color="success" variant="outlined" />
+                        <Chip label={t('contact.devOps')} color="warning" variant="outlined" />
+                        <Chip label={t('contact.aiMl')} color="error" variant="outlined" />
                       </Box>
                     </Box>
                   </CardContent>
@@ -296,7 +296,7 @@ const Contact: React.FC = () => {
           <motion.div variants={itemVariants}>
             <Box sx={{ textAlign: 'center', mt: 6 }}>
               <Typography variant="body1" color="text.secondary" sx={{ mb: 3 }}>
-                Открыт к новым возможностям и интересным проектам
+                {t('contact.openToOpportunities')}
               </Typography>
               <Button
                 variant="contained"
@@ -316,7 +316,7 @@ const Contact: React.FC = () => {
                   transition: 'all 0.3s ease',
                 }}
               >
-                Написать в Telegram
+                {t('contact.writeTelegram')}
               </Button>
             </Box>
           </motion.div>

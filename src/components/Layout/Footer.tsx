@@ -14,9 +14,11 @@ import {
   ArrowUpward,
 } from '@mui/icons-material';
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 
 const Footer: React.FC = () => {
   const theme = useTheme();
+  const { t } = useTranslation();
 
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -41,7 +43,7 @@ const Footer: React.FC = () => {
               Pavel Pulin
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              Tech Lead & Full-Stack Developer
+              {t('common.techLeadFullStack')}
             </Typography>
           </Box>
 
@@ -94,11 +96,11 @@ const Footer: React.FC = () => {
 
         <Box sx={{ display: 'flex', flexDirection: { xs: 'column', md: 'row' }, justifyContent: 'space-between', alignItems: 'center', gap: 2 }}>
           <Typography variant="body2" color="text.secondary" sx={{ textAlign: { xs: 'center', md: 'left' } }}>
-            © {currentYear} Pavel Pulin. Все права защищены.
+            © {currentYear} Pavel Pulin. {t('common.allRightsReserved')}
           </Typography>
 
           <Typography variant="body2" color="text.secondary" sx={{ textAlign: { xs: 'center', md: 'right' } }}>
-            Создано с ❤️ используя React, Material-UI & TypeScript
+            {t('common.createdWith')}
           </Typography>
         </Box>
       </Container>

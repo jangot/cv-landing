@@ -78,7 +78,7 @@ const Skills: React.FC = () => {
             fontWeight: 500,
           }}
         >
-          {skillsData.length} технологий • {skillCategories.length} категорий
+          {skillsData.length} {t('skills.technologies')} • {skillCategories.length} {t('skills.categories')}
         </Typography>
 
         <Card
@@ -107,7 +107,7 @@ const Skills: React.FC = () => {
               }}
             >
               <Tab
-                label="Все"
+                label={t('skills.all')}
                 value="all"
                 sx={{
                   '&.Mui-selected': {
@@ -185,41 +185,41 @@ const Skills: React.FC = () => {
 
         <Box sx={{ mt: 6, textAlign: 'center' }}>
           <Typography variant="h6" sx={{ mb: 3, color: 'text.primary', fontWeight: 600 }}>
-            Ключевые компетенции
+            {t('skills.keyCompetencies')}
           </Typography>
           <Box sx={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: 2 }}>
             <Chip
-              label="Tech Leadership"
+              label={t('skills.techLeadership')}
               color="primary"
               variant="outlined"
               sx={{ fontWeight: 600, fontSize: '1rem', py: 1 }}
             />
             <Chip
-              label="Full-Stack Development"
+              label={t('skills.fullStackDevelopment')}
               color="secondary"
               variant="outlined"
               sx={{ fontWeight: 600, fontSize: '1rem', py: 1 }}
             />
             <Chip
-              label="System Architecture"
+              label={t('skills.systemArchitecture')}
               color="success"
               variant="outlined"
               sx={{ fontWeight: 600, fontSize: '1rem', py: 1 }}
             />
             <Chip
-              label="DevOps & CI/CD"
+              label={t('skills.devOpsCICD')}
               color="warning"
               variant="outlined"
               sx={{ fontWeight: 600, fontSize: '1rem', py: 1 }}
             />
             <Chip
-              label="AI/ML Integration"
+              label={t('skills.aiMlIntegration')}
               color="error"
               variant="outlined"
               sx={{ fontWeight: 600, fontSize: '1rem', py: 1 }}
             />
             <Chip
-              label="Payment Systems"
+              label={t('skills.paymentSystems')}
               color="info"
               variant="outlined"
               sx={{ fontWeight: 600, fontSize: '1rem', py: 1 }}

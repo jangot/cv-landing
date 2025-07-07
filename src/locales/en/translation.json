@@ -14,11 +14,20 @@
     "location": "Israel",
     "contactMe": "Contact Me",
     "downloadCV": "Download CV",
-    "viewProjects": "View Projects"
+    "viewProjects": "View Projects",
+    "techLead": "Tech Lead",
+    "fullStack": "Full-Stack",
+    "experienceYears": "18+ years experience"
   },
   "about": {
     "title": "About Me",
     "bio": "With over 18 years of experience in software development, I have progressed from an HTML coder to a versatile full-stack developer, technical leader, and infrastructure specialist. My career spans diverse roles and responsibilities, including frontend and backend development, designing REST APIs and GraphQL services, integrating third-party services, and setting up developer infrastructure.",
+    "biography": "Biography",
+    "techLead": "Tech Lead",
+    "fullStackDeveloper": "Full-Stack Developer",
+    "devOpsEngineer": "DevOps Engineer",
+    "aiMlIntegration": "AI/ML Integration",
+    "quote": "Evolution from HTML coder to Tech Lead over 18+ years demonstrates my ability to adapt to new technologies and take on increasingly complex roles in development.",
     "education": {
       "title": "Education",
       "college": "St. Petersburg Construction Economics College (2005)",
@@ -41,7 +50,12 @@
   "experience": {
     "title": "Work Experience",
     "years": "18 years 4 months",
-    "current": "present"
+    "current": "present",
+    "companies": "companies",
+    "keyAchievements": "Key Achievements:",
+    "technologies": "Technologies:",
+    "careerStart": "Career started in 2007 as an HTML coder",
+    "viewLinkedIn": "View full profile on LinkedIn"
   },
   "skills": {
     "title": "Skills",
@@ -51,22 +65,60 @@
     "devops": "DevOps",
     "ai-ml": "AI/ML",
     "payments": "Payments",
-    "tools": "Tools"
+    "tools": "Tools",
+    "technologies": "technologies",
+    "categories": "categories",
+    "all": "All",
+    "keyCompetencies": "Key Competencies",
+    "techLeadership": "Tech Leadership",
+    "fullStackDevelopment": "Full-Stack Development",
+    "systemArchitecture": "System Architecture",
+    "devOpsCICD": "DevOps & CI/CD",
+    "aiMlIntegration": "AI/ML Integration",
+    "paymentSystems": "Payment Systems"
   },
   "projects": {
     "title": "Projects",
     "viewProject": "View Project",
-    "viewCode": "View Code"
+    "viewCode": "View Code",
+    "keyProjects": "key projects",
+    "variousTechnologies": "Various technologies",
+    "technologies": "Technologies:",
+    "projectDescription": "Each project demonstrates different aspects of development: from technical leadership to AI/ML integration",
+    "moreProjectsLinkedIn": "More projects on LinkedIn"
   },
   "contact": {
     "title": "Contact",
     "preferred": "preferred method of communication",
-    "getInTouch": "Get in Touch"
+    "getInTouch": "Get in Touch",
+    "readyForProjects": "Ready for new projects",
+    "contactMe": "Contact Me",
+    "information": "Information",
+    "location": "Location",
+    "citizenship": "Citizenship: Russia, Israel",
+    "availability": "Availability",
+    "fullTime": "Full-time, project work",
+    "remoteWork": "Remote work, full day",
+    "preferredContact": "Preferred method of communication",
+    "telegramFastest": "Telegram - fastest way to contact",
+    "respondHours": "I respond within a few hours",
+    "readyForCooperation": "Ready for cooperation in projects:",
+    "techLead": "Tech Lead",
+    "fullStack": "Full-Stack",
+    "architecture": "Architecture",
+    "devOps": "DevOps",
+    "aiMl": "AI/ML",
+    "openToOpportunities": "Open to new opportunities and interesting projects",
+    "writeTelegram": "Write on Telegram",
+    "linkedinProfile": "LinkedIn Profile"
   },
   "common": {
     "download": "Download",
     "view": "View",
     "learnMore": "Learn More",
-    "backToTop": "Back to Top"
+    "backToTop": "Back to Top",
+    "techLeadFullStack": "Tech Lead & Full-Stack Developer",
+    "allRightsReserved": "All rights reserved.",
+    "createdWith": "Created with ❤️ using React, Material-UI & TypeScript"
   }
 }

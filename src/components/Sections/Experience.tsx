@@ -62,7 +62,7 @@ const Experience: React.FC = () => {
             fontWeight: 500,
           }}
         >
-          {t('experience.years')} • {experienceData.length} компаний
+          {t('experience.years')} • {experienceData.length} {t('experience.companies')}
         </Typography>
 
         <Box sx={{ position: 'relative' }}>
@@ -151,7 +151,7 @@ const Experience: React.FC = () => {
 
                 <Box sx={{ mb: 3 }}>
                   <Typography variant="body1" sx={{ fontWeight: 600, mb: 1, color: 'text.primary' }}>
-                    Ключевые достижения:
+                    {t('experience.keyAchievements')}
                   </Typography>
                   <Box component="ul" sx={{ pl: 2, m: 0 }}>
                     {experience.achievements.map((achievement, idx) => (
@@ -173,7 +173,7 @@ const Experience: React.FC = () => {
 
                 <Box>
                   <Typography variant="body2" sx={{ fontWeight: 600, mb: 1, color: 'text.primary' }}>
-                    Технологии:
+                    {t('experience.technologies')}
                   </Typography>
                   <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 1 }}>
                     {experience.technologies.map((tech, idx) => (
@@ -200,7 +200,7 @@ const Experience: React.FC = () => {
 
         <Box sx={{ textAlign: 'center', mt: 6 }}>
           <Typography variant="body1" color="text.secondary" sx={{ mb: 2 }}>
-            Карьера началась в 2007 году как HTML-кодер
+            {t('experience.careerStart')}
           </Typography>
           <Button
             variant="outlined"
@@ -215,7 +215,7 @@ const Experience: React.FC = () => {
               }
             }}
           >
-            Посмотреть полный профиль на LinkedIn
+            {t('experience.viewLinkedIn')}
           </Button>
         </Box>
       </Container>

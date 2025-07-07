@@ -14,11 +14,20 @@
     "location": "Израиль",
     "contactMe": "Связаться",
     "downloadCV": "Скачать резюме",
-    "viewProjects": "Посмотреть проекты"
+    "viewProjects": "Посмотреть проекты",
+    "techLead": "Tech Lead",
+    "fullStack": "Full-Stack",
+    "experienceYears": "18+ лет опыта"
   },
   "about": {
     "title": "О себе",
     "bio": "С более чем 18-летним опытом в разработке программного обеспечения, я прошел путь от HTML-кодера до универсального full-stack разработчика, технического лидера и специалиста по инфраструктуре. Моя карьера охватывает различные роли и обязанности, включая frontend и backend разработку, проектирование REST API и GraphQL сервисов, интеграцию сторонних сервисов и настройку инфраструктуры разработчиков.",
+    "biography": "Биография",
+    "techLead": "Tech Lead",
+    "fullStackDeveloper": "Full-Stack Developer",
+    "devOpsEngineer": "DevOps Engineer",
+    "aiMlIntegration": "AI/ML Integration",
+    "quote": "Эволюция от HTML-кодера до Tech Lead за 18+ лет показывает мою способность адаптироваться к новым технологиям и брать на себя все более сложные роли в разработке.",
     "education": {
       "title": "Образование",
       "college": "Санкт-Петербургский строительный экономический колледж (2005)",
@@ -41,7 +50,12 @@
   "experience": {
     "title": "Опыт работы",
     "years": "18 лет 4 месяца",
-    "current": "настоящее время"
+    "current": "настоящее время",
+    "companies": "компаний",
+    "keyAchievements": "Ключевые достижения:",
+    "technologies": "Технологии:",
+    "careerStart": "Карьера началась в 2007 году как HTML-кодер",
+    "viewLinkedIn": "Посмотреть полный профиль на LinkedIn"
   },
   "skills": {
     "title": "Навыки",
@@ -51,22 +65,60 @@
     "devops": "DevOps",
     "ai-ml": "AI/ML",
     "payments": "Платежи",
-    "tools": "Инструменты"
+    "tools": "Инструменты",
+    "technologies": "технологий",
+    "categories": "категорий",
+    "all": "Все",
+    "keyCompetencies": "Ключевые компетенции",
+    "techLeadership": "Tech Leadership",
+    "fullStackDevelopment": "Full-Stack Development",
+    "systemArchitecture": "System Architecture",
+    "devOpsCICD": "DevOps & CI/CD",
+    "aiMlIntegration": "AI/ML Integration",
+    "paymentSystems": "Payment Systems"
   },
   "projects": {
     "title": "Проекты",
     "viewProject": "Посмотреть проект",
-    "viewCode": "Посмотреть код"
+    "viewCode": "Посмотреть код",
+    "keyProjects": "ключевых проектов",
+    "variousTechnologies": "Различные технологии",
+    "technologies": "Технологии:",
+    "projectDescription": "Каждый проект демонстрирует различные аспекты разработки: от технического лидерства до интеграции AI/ML",
+    "moreProjectsLinkedIn": "Больше проектов на LinkedIn"
   },
   "contact": {
     "title": "Контакты",
     "preferred": "предпочтительный способ связи",
-    "getInTouch": "Связаться со мной"
+    "getInTouch": "Связаться со мной",
+    "readyForProjects": "Готов к новым проектам",
+    "contactMe": "Связаться со мной",
+    "information": "Информация",
+    "location": "Локация",
+    "citizenship": "Гражданство: Россия, Израиль",
+    "availability": "Доступность",
+    "fullTime": "Полная занятость, проектная работа",
+    "remoteWork": "Удаленная работа, полный день",
+    "preferredContact": "Предпочтительный способ связи",
+    "telegramFastest": "Telegram - самый быстрый способ связаться",
+    "respondHours": "Отвечаю в течение нескольких часов",
+    "readyForCooperation": "Готов к сотрудничеству в проектах:",
+    "techLead": "Tech Lead",
+    "fullStack": "Full-Stack",
+    "architecture": "Architecture",
+    "devOps": "DevOps",
+    "aiMl": "AI/ML",
+    "openToOpportunities": "Открыт к новым возможностям и интересным проектам",
+    "writeTelegram": "Написать в Telegram",
+    "linkedinProfile": "LinkedIn Profile"
   },
   "common": {
     "download": "Скачать",
     "view": "Посмотреть",
     "learnMore": "Узнать больше",
-    "backToTop": "Наверх"
+    "backToTop": "Наверх",
+    "techLeadFullStack": "Tech Lead & Full-Stack Developer",
+    "allRightsReserved": "Все права защищены.",
+    "createdWith": "Создано с ❤️ используя React, Material-UI & TypeScript"
   }
 }

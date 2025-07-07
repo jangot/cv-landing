@@ -117,19 +117,19 @@ const Hero: React.FC = () => {
 
               <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 2, mb: 4 }}>
                 <Chip
-                  label="Tech Lead"
+                  label={t('hero.techLead')}
                   color="primary"
                   variant="outlined"
                   sx={{ fontWeight: 500 }}
                 />
                 <Chip
-                  label="Full-Stack"
+                  label={t('hero.fullStack')}
                   color="secondary"
                   variant="outlined"
                   sx={{ fontWeight: 500 }}
                 />
                 <Chip
-                  label="18+ лет опыта"
+                  label={t('hero.experienceYears')}
                   color="success"
                   variant="outlined"
                   sx={{ fontWeight: 500 }}

@@ -14,11 +14,20 @@
     "location": "ישראל",
     "contactMe": "צור קשר",
     "downloadCV": "הורד קורות חיים",
-    "viewProjects": "צפה בפרויקטים"
+    "viewProjects": "צפה בפרויקטים",
+    "techLead": "Tech Lead",
+    "fullStack": "Full-Stack",
+    "experienceYears": "18+ שנות ניסיון"
   },
   "about": {
     "title": "אודותיי",
     "bio": "עם יותר מ-18 שנות ניסיון בפיתוח תוכנה, התקדמתי מקודד HTML למפתח full-stack רב-תכליתי, מנהיג טכני ומומחה תשתיות. הקריירה שלי כוללת תפקידים ואחריות מגוונים, כולל פיתוח frontend ו-backend, עיצוב REST APIs ו-GraphQL services, אינטגרציה של שירותים צד שלישי והקמת תשתיות מפתחים.",
+    "biography": "ביוגרפיה",
+    "techLead": "Tech Lead",
+    "fullStackDeveloper": "Full-Stack Developer",
+    "devOpsEngineer": "DevOps Engineer",
+    "aiMlIntegration": "AI/ML Integration",
+    "quote": "האבולוציה מקודד HTML ל-Tech Lead במשך 18+ שנים מדגימה את היכולת שלי להסתגל לטכנולוגיות חדשות ולקחת על עצמי תפקידים מורכבים יותר בפיתוח.",
     "education": {
       "title": "השכלה",
       "college": "St. Petersburg Construction Economics College (2005)",
@@ -41,7 +50,12 @@
   "experience": {
     "title": "ניסיון עבודה",
     "years": "18 שנים 4 חודשים",
-    "current": "הווה"
+    "current": "הווה",
+    "companies": "חברות",
+    "keyAchievements": "הישגים מרכזיים:",
+    "technologies": "טכנולוגיות:",
+    "careerStart": "הקריירה החלה בשנת 2007 כקודד HTML",
+    "viewLinkedIn": "צפה בפרופיל המלא ב-LinkedIn"
   },
   "skills": {
     "title": "כישורים",
@@ -51,22 +65,60 @@
     "devops": "DevOps",
     "ai-ml": "AI/ML",
     "payments": "תשלומים",
-    "tools": "כלים"
+    "tools": "כלים",
+    "technologies": "טכנולוגיות",
+    "categories": "קטגוריות",
+    "all": "הכל",
+    "keyCompetencies": "כישורים מרכזיים",
+    "techLeadership": "Tech Leadership",
+    "fullStackDevelopment": "Full-Stack Development",
+    "systemArchitecture": "System Architecture",
+    "devOpsCICD": "DevOps & CI/CD",
+    "aiMlIntegration": "AI/ML Integration",
+    "paymentSystems": "Payment Systems"
   },
   "projects": {
     "title": "פרויקטים",
     "viewProject": "צפה בפרויקט",
-    "viewCode": "צפה בקוד"
+    "viewCode": "צפה בקוד",
+    "keyProjects": "פרויקטים מרכזיים",
+    "variousTechnologies": "טכנולוגיות שונות",
+    "technologies": "טכנולוגיות:",
+    "projectDescription": "כל פרויקט מדגים היבטים שונים של פיתוח: ממנהיגות טכנית ועד אינטגרציה של AI/ML",
+    "moreProjectsLinkedIn": "עוד פרויקטים ב-LinkedIn"
   },
   "contact": {
     "title": "צור קשר",
     "preferred": "שיטת תקשורת מועדפת",
-    "getInTouch": "צור קשר"
+    "getInTouch": "צור קשר",
+    "readyForProjects": "מוכן לפרויקטים חדשים",
+    "contactMe": "צור קשר",
+    "information": "מידע",
+    "location": "מיקום",
+    "citizenship": "אזרחות: רוסיה, ישראל",
+    "availability": "זמינות",
+    "fullTime": "משרה מלאה, עבודת פרויקט",
+    "remoteWork": "עבודה מרחוק, יום מלא",
+    "preferredContact": "שיטת תקשורת מועדפת",
+    "telegramFastest": "Telegram - הדרך המהירה ביותר ליצור קשר",
+    "respondHours": "אני עונה תוך מספר שעות",
+    "readyForCooperation": "מוכן לשיתוף פעולה בפרויקטים:",
+    "techLead": "Tech Lead",
+    "fullStack": "Full-Stack",
+    "architecture": "Architecture",
+    "devOps": "DevOps",
+    "aiMl": "AI/ML",
+    "openToOpportunities": "פתוח להזדמנויות חדשות ופרויקטים מעניינים",
+    "writeTelegram": "כתוב ב-Telegram",
+    "linkedinProfile": "LinkedIn Profile"
   },
   "common": {
     "download": "הורד",
     "view": "צפה",
     "learnMore": "למידע נוסף",
-    "backToTop": "חזור למעלה"
+    "backToTop": "חזור למעלה",
+    "techLeadFullStack": "Tech Lead & Full-Stack Developer",
+    "allRightsReserved": "כל הזכויות שמורות.",
+    "createdWith": "נוצר עם ❤️ באמצעות React, Material-UI & TypeScript"
   }
 }

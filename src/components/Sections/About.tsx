@@ -97,7 +97,7 @@ const About: React.FC = () => {
                       component="h3"
                       sx={{ mb: 3, fontWeight: 600, color: 'primary.main' }}
                     >
-                      Биография
+                      {t('about.biography')}
                     </Typography>
                     <Typography
                       variant="body1"
@@ -113,25 +113,25 @@ const About: React.FC = () => {
 
                     <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 1, mb: 3 }}>
                       <Chip
-                        label="Tech Lead"
+                        label={t('about.techLead')}
                         color="primary"
                         variant="outlined"
                         sx={{ fontWeight: 500 }}
                       />
                       <Chip
-                        label="Full-Stack Developer"
+                        label={t('about.fullStackDeveloper')}
                         color="secondary"
                         variant="outlined"
                         sx={{ fontWeight: 500 }}
                       />
                       <Chip
-                        label="DevOps Engineer"
+                        label={t('about.devOpsEngineer')}
                         color="success"
                         variant="outlined"
                         sx={{ fontWeight: 500 }}
                       />
                       <Chip
-                        label="AI/ML Integration"
+                        label={t('about.aiMlIntegration')}
                         color="warning"
                         variant="outlined"
                         sx={{ fontWeight: 500 }}
@@ -148,7 +148,7 @@ const About: React.FC = () => {
                         pl: 2,
                       }}
                     >
-                      "Эволюция от HTML-кодера до Tech Lead за 18+ лет показывает мою способность адаптироваться к новым технологиям и брать на себя все более сложные роли в разработке."
+                      "{t('about.quote')}"
                     </Typography>
                   </CardContent>
                 </Card>

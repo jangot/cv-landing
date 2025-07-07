@@ -23,7 +23,7 @@ export const contactData: Contact[] = [
   {
     type: 'linkedin',
     value: 'https://www.linkedin.com/in/pavel-pulin-156528b5/',
-    label: 'LinkedIn Profile',
+    label: 'contact.linkedinProfile',
     icon: '💼',
   },
 ];
