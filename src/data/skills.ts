@@ -15,12 +15,12 @@ export const skillsData: Skill[] = [
   { name: 'Express', level: 85, category: 'backend' },
   { name: 'NestJS', level: 85, category: 'backend' },
   { name: 'GraphQL', level: 80, category: 'backend' },
-  { name: 'Apollo Server', level: 75, category: 'backend' },
-  { name: 'JWT', level: 85, category: 'backend' },
   { name: 'REST APIs', level: 90, category: 'backend' },
+  { name: 'Apollo Server', level: 75, category: 'backend' },
   { name: 'WebSocket', level: 75, category: 'backend' },
   { name: 'RabbitMQ', level: 60, category: 'backend' },
   { name: 'Telegram bots', level: 50, category: 'backend' },
+  { name: 'JWT', level: 85, category: 'backend' },
 
   // Database
   { name: 'PostgreSQL', level: 70, category: 'database' },

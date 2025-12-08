@@ -29,6 +29,24 @@
     "devOpsEngineer": "DevOps Engineer",
     "aiMlIntegration": "AI Integration",
     "quote": "Evolution from HTML coder to Tech Lead over 18+ years demonstrates my ability to adapt to new technologies and take on increasingly complex roles in development.",
+    "sections": {
+      "experience": {
+        "title": "Experience & Specialization",
+        "content": "Experienced Full Stack Developer specializing in Node.js and NestJS, with strong experience in database design and management, as well as solid front-end development skills."
+      },
+      "collaboration": {
+        "title": "Team Collaboration",
+        "content": "I effectively communicate and collaborate within cross-functional teams, and I'm committed to continuous self-development to stay aligned with the latest trends in modern software engineering."
+      },
+      "aiTools": {
+        "title": "AI Tools in Development",
+        "content": "Additionally, I actively incorporate cutting-edge AI tools and workflows into my development process — including code generation, automated refactoring, architectural analysis — to enhance productivity, code quality, and solution design."
+      }
+    },
+    "keySkills": {
+      "title": "Key Skills",
+      "description": "Technologies where I'm most proficient"
+    },
     "education": {
       "title": "Education",
       "college": "St. Petersburg Construction Economics College (2005)",

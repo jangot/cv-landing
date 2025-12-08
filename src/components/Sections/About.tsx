@@ -15,10 +15,15 @@ import {
   Work,
   Language,
   EmojiEvents,
+  Code,
+  Group,
+  Psychology,
 } from '@mui/icons-material';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { useLanguage } from '../../contexts/LanguageContext';
+import { getKeySkills } from '../../utils/keySkills';
+import { skillCategories } from '../../data/skills';
 
 const About: React.FC = () => {
   const { t } = useTranslation();
@@ -101,18 +106,126 @@ const About: React.FC = () => {
                     >
                       {t('about.biography')}
                     </Typography>
-                    <Typography
-                      variant="body1"
-                      sx={{
-                        lineHeight: 1.8,
-                        fontSize: '1.1rem',
-                        color: 'text.secondary',
-                        mb: 3,
-                      }}
-                    >
-                      {t('about.bio')}
-                    </Typography>
 
+                    {/* Section: Experience & Specialization */}
+                    <Box sx={{ mb: 4 }}>
+                      <Box sx={{ display: 'flex', alignItems: 'center', mb: 2 }}>
+                        <Code sx={{
+                          color: 'primary.main',
+                          marginRight: isRTL ? 0 : 1,
+                          marginLeft: isRTL ? 1 : 0
+                        }} />
+                        <Typography variant="h6" sx={{ fontWeight: 600 }}>
+                          {t('about.sections.experience.title')}
+                        </Typography>
+                      </Box>
+                      <Typography
+                        variant="body1"
+                        sx={{
+                          lineHeight: 1.8,
+                          fontSize: '1.1rem',
+                          color: 'text.secondary',
+                          mb: 2,
+                        }}
+                      >
+                        {t('about.sections.experience.content')}
+                      </Typography>
+                    </Box>
+
+                    <Divider sx={{ my: 3 }} />
+
+                    {/* Section: Team Collaboration */}
+                    <Box sx={{ mb: 4 }}>
+                      <Box sx={{ display: 'flex', alignItems: 'center', mb: 2 }}>
+                        <Group sx={{
+                          color: 'primary.main',
+                          marginRight: isRTL ? 0 : 1,
+                          marginLeft: isRTL ? 1 : 0
+                        }} />
+                        <Typography variant="h6" sx={{ fontWeight: 600 }}>
+                          {t('about.sections.collaboration.title')}
+                        </Typography>
+                      </Box>
+                      <Typography
+                        variant="body1"
+                        sx={{
+                          lineHeight: 1.8,
+                          fontSize: '1.1rem',
+                          color: 'text.secondary',
+                          mb: 2,
+                        }}
+                      >
+                        {t('about.sections.collaboration.content')}
+                      </Typography>
+                    </Box>
+
+                    <Divider sx={{ my: 3 }} />
+
+                    {/* Section: AI Tools */}
+                    <Box sx={{ mb: 4 }}>
+                      <Box sx={{ display: 'flex', alignItems: 'center', mb: 2 }}>
+                        <Psychology sx={{
+                          color: 'primary.main',
+                          marginRight: isRTL ? 0 : 1,
+                          marginLeft: isRTL ? 1 : 0
+                        }} />
+                        <Typography variant="h6" sx={{ fontWeight: 600 }}>
+                          {t('about.sections.aiTools.title')}
+                        </Typography>
+                      </Box>
+                      <Typography
+                        variant="body1"
+                        sx={{
+                          lineHeight: 1.8,
+                          fontSize: '1.1rem',
+                          color: 'text.secondary',
+                          mb: 2,
+                        }}
+                      >
+                        {t('about.sections.aiTools.content')}
+                      </Typography>
+                    </Box>
+
+                    <Divider sx={{ my: 3 }} />
+
+                    {/* Key Skills */}
+                    <Box sx={{ mb: 3 }}>
+                      <Typography
+                        variant="h6"
+                        sx={{ fontWeight: 600, mb: 1 }}
+                      >
+                        {t('about.keySkills.title')}
+                      </Typography>
+                      <Typography
+                        variant="body2"
+                        sx={{ color: 'text.secondary', mb: 2 }}
+                      >
+                        {t('about.keySkills.description')}
+                      </Typography>
+                      <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 1.5 }}>
+                        {getKeySkills(70, 10).map((skill) => {
+                          console.log(skill)
+                          const category = skillCategories.find(c => c.id === skill.category);
+                          return (
+                            <Chip
+                              key={skill.name}
+                              label={`${skill.name} ${skill.level}%`}
+                              sx={{
+                                backgroundColor: category?.color || 'primary.main',
+                                color: 'white',
+                                fontWeight: 600,
+                                fontSize: '0.875rem',
+                                '&:hover': {
+                                  opacity: 0.9,
+                                },
+                              }}
+                            />
+                          );
+                        })}
+                      </Box>
+                    </Box>
+
+                    {/* Roles (existing chips) */}
                     <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 1, mb: 3 }}>
                       <Chip
                         label={t('about.techLead')}
@@ -140,6 +253,7 @@ const About: React.FC = () => {
                       />
                     </Box>
 
+                    {/* Quote (existing) */}
                     <Typography
                       variant="body2"
                       sx={{
