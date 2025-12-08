@@ -22,7 +22,7 @@
   },
   "about": {
     "title": "About Me",
-    "bio": "With over 18 years of experience in software development, I have progressed from an HTML coder to a versatile full-stack developer, technical leader, and infrastructure specialist. My career spans diverse roles and responsibilities, including frontend and backend development, designing REST APIs and GraphQL services, integrating third-party services, and setting up developer infrastructure.",
+    "bio": "Experienced Full Stack Developer specializing in Node.js and NestJS, with strong experience in database design and management, as well as solid front-end development skills. I effectively communicate and collaborate within cross-functional teams, and I'm committed to continuous self-development to stay aligned with the latest trends in modern software engineering. Additionally, I actively incorporate cutting-edge AI tools and workflows into my development process — including code generation, automated refactoring, architectural analysis — to enhance productivity, code quality, and solution design.",
     "biography": "Biography",
     "techLead": "Tech Lead",
     "fullStackDeveloper": "Full-Stack Developer",
@@ -58,7 +58,12 @@
     "careerStart": "Career started in 2007 as an HTML coder",
     "viewLinkedIn": "View full profile on LinkedIn",
     "achievements": {
-      "valletta": {
+      "zirtue": {
+        "achievement1": "Designed and integrated service notifications using AWS SNS/SQS",
+        "achievement2": "Implemented negative payment scenarios and failure flows",
+        "achievement3": "Set up testing processes and covered critical components with tests"
+      },
+      "soilsync": {
         "achievement1": "Acted as the technical lead for a project serving farms across the United States",
         "achievement2": "Designed and implemented backend architecture and cloud infrastructure",
         "achievement3": "Worked cross-functionally with DevOps, frontend teams, and stakeholders",
@@ -154,7 +159,8 @@
     "technologies": "Technologies:",
     "projectDescription": "Each project demonstrates different aspects of development: from technical leadership to AI/ML integration",
     "moreProjectsLinkedIn": "More projects on LinkedIn",
-    "agriculturalPlatform": "Technical leadership in developing a platform for US agricultural farms. Backend architecture and cloud infrastructure, ensuring system scalability and reliability.",
+    "p2pLending": "P2P lending application enabling users to securely borrow and lend money directly to each other. Implemented AWS SNS/SQS notifications, payment failure flows, and comprehensive testing processes.",
+    "fertilizerPlatform": "Technical leadership in developing a platform for US agricultural farms. Backend architecture and cloud infrastructure design, ensuring system scalability and reliability.",
     "aiSearchSystem": "Semantic search system using OpenAI API and Qdrant vector database. Integration with multiple websites and workflow automation.",
     "paymentIntegration": "Integration of Stripe and Paddle payment systems for subscription and one-time payment processing. Setting up authentication through Auth0.",
     "graphqlPlatform": "Development of GraphQL platform with Apollo Federation. Creation and implementation of subgraph services for distributed system.",

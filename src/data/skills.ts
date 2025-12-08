@@ -56,6 +56,7 @@ export const skillsData: Skill[] = [
   { name: 'Selenium', level: 60, category: 'tools' },
   { name: 'jmeter', level: 60, category: 'tools' },
   { name: 'Auth0', level: 65, category: 'tools' },
+  { name: 'Cursor AI', level: 85, category: 'tools' },
 ];
 
 export const skillCategories = [

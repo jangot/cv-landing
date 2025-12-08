@@ -2,11 +2,19 @@ import { Project } from '../types';
 
 export const projectsData: Project[] = [
   {
-    id: 'agricultural-platform',
-    title: 'U.S. Agricultural Platform',
-    description: 'projects.agriculturalPlatform',
-    technologies: ['Node.js', 'AWS', 'Cloud Architecture', 'DevOps', 'Team Leadership'],
-    link: 'https://vallettasoftware.com',
+    id: 'p2p-lending',
+    title: 'P2P Lending Platform',
+    description: 'projects.p2pLending',
+    technologies: ['NodeJS', 'NestJS', 'TypeORM', 'PostgreSQL', 'AWS', 'SNS/SQS'],
+    link: 'https://zirtue.com',
+    github: undefined,
+  },
+  {
+    id: 'fertilizer-platform',
+    title: 'Fertilizer–Farmer Connectivity Platform',
+    description: 'projects.fertilizerPlatform',
+    technologies: ['NodeJS', 'NestJS', 'Prisma', 'PostgreSQL', 'AWS', 'Cloud Architecture'],
+    link: 'https://soilsync.bio',
     github: undefined,
   },
   {

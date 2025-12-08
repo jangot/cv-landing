@@ -2,15 +2,26 @@ import { Experience } from '../types';
 
 export const experienceData: Experience[] = [
   {
-    id: 'valletta',
-    company: 'VallettaSoftware',
-    position: 'Tech Lead',
-    period: 'February 2025 — present',
+    id: 'zirtue',
+    company: 'Zirtue',
+    position: 'P2P Lending Platform Developer',
+    period: 'August 2025 — December 2025',
+    duration: '5 months',
+    description: 'A peer-to-peer lending application that enables users to securely borrow and lend money directly to each other, with automated workflows and transparent transaction management.',
+    achievements: ['achievement1', 'achievement2', 'achievement3'],
+    technologies: ['NodeJS', 'NestJS', 'TypeORM', 'PostgreSQL', 'AWS', 'AI Prompting'],
+    website: 'https://zirtue.com'
+  },
+  {
+    id: 'soilsync',
+    company: 'SoilSync',
+    position: 'Fertilizer–Farmer Connectivity Platform Developer',
+    period: 'February 2025 — July 2025',
     duration: '6 months',
-    description: 'Technical Lead – U.S. Agricultural Platform',
+    description: 'Acted as the technical lead for a project serving farms across the United States.',
     achievements: ['achievement1', 'achievement2', 'achievement3', 'achievement4'],
-    technologies: ['Node.js', 'AWS', 'Cloud Architecture', 'DevOps', 'Team Leadership'],
-    website: 'https://vallettasoftware.com'
+    technologies: ['NodeJS', 'NestJS', 'Prisma', 'PostgreSQL', 'AWS'],
+    website: 'https://soilsync.bio'
   },
   {
     id: 'aithor',
@@ -20,7 +31,7 @@ export const experienceData: Experience[] = [
     duration: '5 months',
     description: 'AI-powered platform development',
     achievements: ['achievement1', 'achievement2', 'achievement3', 'achievement4', 'achievement5'],
-    technologies: ['React', 'Node.js', 'Stripe', 'Paddle', 'Auth0', 'OpenAI API', 'Qdrant', 'Zapier'],
+    technologies: ['React', 'Node.js', 'Stripe', 'Paddle', 'Auth0', 'OpenAI API', 'Qdrant'],
     website: 'https://aithor.com'
   },
   {
@@ -31,14 +42,14 @@ export const experienceData: Experience[] = [
     duration: '1 year 1 month',
     description: 'Full-stack development and system integration',
     achievements: ['achievement1', 'achievement2', 'achievement3', 'achievement4'],
-    technologies: ['React', 'Node.js', 'Stripe', 'Legacy Systems', 'System Integration'],
+    technologies: ['React', 'Node.js', 'NestJS', 'Stripe', 'Legacy Systems', 'System Integration'],
     website: 'https://smile2impress.com'
   },
   {
     id: 'infobip',
     company: 'Infobip LLC',
     position: 'Backend Developer',
-    period: 'December 2018 — May 2023',
+    period: 'December 2018 — June 2023',
     duration: '4 years 6 months',
     description: 'Web infrastructure platform development',
     achievements: ['achievement1', 'achievement2', 'achievement3', 'achievement4', 'achievement5', 'achievement6'],
@@ -49,7 +60,7 @@ export const experienceData: Experience[] = [
     id: 'alfabank',
     company: 'Alfa-Bank',
     position: 'Lead Frontend Developer',
-    period: 'February 2017 — December 2018',
+    period: 'January 2017 — December 2018',
     duration: '1 year 11 months',
     description: 'Banking applications development',
     achievements: ['achievement1', 'achievement2', 'achievement3', 'achievement4', 'achievement5'],
