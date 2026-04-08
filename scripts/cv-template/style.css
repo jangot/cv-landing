@@ -1,0 +1,42 @@
+/* Базовые A4-стили для PDF */
+@page { size: A4; margin: 15mm 20mm; }
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Arial', 'Helvetica Neue', sans-serif;
+  font-size: 11px;
+  line-height: 1.5;
+  color: #1a1a1a;
+}
+
+/* RTL поддержка */
+[dir="rtl"] body { direction: rtl; }
+[dir="rtl"] .section-title { text-align: right; }
+
+.cv-header { margin-bottom: 16px; border-bottom: 2px solid #333; padding-bottom: 8px; }
+.cv-name   { font-size: 22px; font-weight: bold; }
+.cv-title  { font-size: 13px; color: #555; }
+.cv-contacts { display: flex; gap: 16px; flex-wrap: wrap; margin-top: 6px; font-size: 10px; }
+
+.section { margin-bottom: 14px; }
+.section-title { font-size: 13px; font-weight: bold; text-transform: uppercase;
+                 letter-spacing: 0.05em; border-bottom: 1px solid #ccc;
+                 padding-bottom: 3px; margin-bottom: 8px; }
+
+.experience-item { margin-bottom: 10px; }
+.experience-header { display: flex; justify-content: space-between; }
+.company  { font-weight: bold; font-size: 12px; }
+.period   { color: #666; font-size: 10px; }
+.position { font-style: italic; color: #444; margin-bottom: 3px; }
+.achievements { padding-left: 14px; }
+.achievements li { margin-bottom: 2px; }
+.technologies { color: #555; font-size: 10px; margin-top: 4px; }
+
+.skills-grid { display: flex; flex-wrap: wrap; gap: 4px; }
+.skill-tag { background: #f0f0f0; border-radius: 3px; padding: 2px 7px; font-size: 10px; }
+
+.project-item { margin-bottom: 8px; }
+.project-title { font-weight: bold; font-size: 11px; }
+.project-desc  { color: #444; margin: 2px 0; }
+.project-tech  { color: #666; font-size: 10px; }
