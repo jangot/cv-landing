@@ -8,8 +8,6 @@ import {
   CardActions,
   Chip,
   Button,
-  Grid,
-  useTheme,
 } from '@mui/material';
 import {
   Launch,
@@ -25,7 +23,6 @@ import { projectsData } from '../../data/projects';
 
 const Projects: React.FC = () => {
   const { t } = useTranslation();
-  const theme = useTheme();
 
   const containerVariants = {
     hidden: { opacity: 0 },
