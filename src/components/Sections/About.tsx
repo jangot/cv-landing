@@ -5,14 +5,11 @@ import {
   Typography,
   Card,
   CardContent,
-  Grid,
   Chip,
   Divider,
-  useTheme,
 } from '@mui/material';
 import {
   School,
-  Work,
   Language,
   EmojiEvents,
   Code,
@@ -27,7 +24,6 @@ import { skillCategories } from '../../data/skills';
 
 const About: React.FC = () => {
   const { t } = useTranslation();
-  const theme = useTheme();
   const { isRTL } = useLanguage();
 
   const containerVariants = {

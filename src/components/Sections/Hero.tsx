@@ -6,7 +6,6 @@ import {
   Button,
   Avatar,
   Chip,
-  useTheme,
 } from '@mui/material';
 import {
   LocationOn,
@@ -20,7 +19,6 @@ import { useLanguage } from '../../contexts/LanguageContext';
 
 const Hero: React.FC = () => {
   const { t } = useTranslation();
-  const theme = useTheme();
   const { isRTL, currentLanguage } = useLanguage();
 
   const scrollToSection = (sectionId: string) => {

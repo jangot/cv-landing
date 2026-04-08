@@ -10,7 +10,6 @@ import {
 import {
   Telegram,
   LinkedIn,
-  GitHub,
   ArrowUpward,
 } from '@mui/icons-material';
 import { motion } from 'framer-motion';
