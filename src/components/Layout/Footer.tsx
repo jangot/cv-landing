@@ -5,7 +5,6 @@ import {
   Typography,
   IconButton,
   Divider,
-  useTheme,
 } from '@mui/material';
 import {
   Telegram,
@@ -16,7 +15,6 @@ import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 
 const Footer: React.FC = () => {
-  const theme = useTheme();
   const { t } = useTranslation();
 
   const scrollToTop = () => {
