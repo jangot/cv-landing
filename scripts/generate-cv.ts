@@ -31,6 +31,11 @@ export function buildHTML(lang: Lang, translations: Record<string, any>, css: st
     .filter(c => ['email', 'linkedin', 'github', 'phone'].includes(c.type))
     .map(c => `<span>${c.value}</span>`)
     .join('');
+  const profileSummaryText = [
+    t(translations, 'about.sections.experience.content'),
+    t(translations, 'about.sections.collaboration.content'),
+    t(translations, 'about.sections.aiTools.content'),
+  ].join(' ');
 
   const experienceHTML = experienceData.map(exp => {
     const achievementsHTML = exp.achievements
@@ -72,14 +77,17 @@ export function buildHTML(lang: Lang, translations: Record<string, any>, css: st
     <div class="cv-name">${t(translations, 'hero.title')}</div>
     <div class="cv-title">${t(translations, 'hero.subtitle')}</div>
     <div class="cv-contacts">${contactsHTML}</div>
-  </div>
-  <div class="section">
-    <div class="section-title">${t(translations, 'nav.experience')}</div>
-    ${experienceHTML}
+    <div class="cv-summary">
+      <div class="cv-summary-text">${profileSummaryText}</div>
+    </div>
   </div>
   <div class="section">
     <div class="section-title">${t(translations, 'nav.skills')}</div>
     <div class="skills-grid">${skillsHTML}</div>
+  </div>
+  <div class="section">
+    <div class="section-title">${t(translations, 'nav.experience')}</div>
+    ${experienceHTML}
   </div>
   <div class="section">
     <div class="section-title">${t(translations, 'nav.projects')}</div>
