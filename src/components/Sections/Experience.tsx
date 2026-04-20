@@ -7,6 +7,7 @@ import {
   CardContent,
   Chip,
   Button,
+  Link,
 } from '@mui/material';
 import {
   Business,
@@ -136,12 +137,42 @@ const Experience: React.FC = () => {
                       variant="body2"
                       sx={{
                         color: 'text.secondary',
-                        mb: 2,
+                        mb: experience.projectLinks?.length ? 1 : 2,
                         fontStyle: 'italic',
                       }}
                     >
                       {experience.description}
                     </Typography>
+                    {experience.projectLinks?.length ? (
+                      <Typography
+                        variant="body2"
+                        sx={{
+                          color: 'text.secondary',
+                          mb: 2,
+                          display: 'flex',
+                          flexWrap: 'wrap',
+                          alignItems: 'center',
+                          gap: 1,
+                        }}
+                      >
+                        Projects:
+                        {experience.projectLinks.map((project, idx) => (
+                          <React.Fragment key={project.url}>
+                            <Link
+                              href={project.url}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              underline="hover"
+                              color="primary.main"
+                              sx={{ fontWeight: 500 }}
+                            >
+                              {project.label}
+                            </Link>
+                            {idx < experience.projectLinks!.length - 1 ? '•' : null}
+                          </React.Fragment>
+                        ))}
+                      </Typography>
+                    ) : null}
                   </Box>
 
                   <Box sx={{ textAlign: 'right', ml: 2 }}>

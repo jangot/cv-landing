@@ -2,26 +2,19 @@ import { Experience } from '../types';
 
 export const experienceData: Experience[] = [
   {
-    id: 'zirtue',
-    company: 'Zirtue',
-    position: 'P2P Lending Platform Developer',
-    period: 'August 2025 — December 2025',
-    duration: '5 months',
-    description: 'A peer-to-peer lending application that enables users to securely borrow and lend money directly to each other, with automated workflows and transparent transaction management.',
-    achievements: ['achievement1', 'achievement2', 'achievement3'],
-    technologies: ['NodeJS', 'NestJS', 'TypeORM', 'PostgreSQL', 'AWS', 'AI Prompting'],
-    website: 'https://zirtue.com'
-  },
-  {
-    id: 'soilsync',
-    company: 'SoilSync',
-    position: 'Fertilizer–Farmer Connectivity Platform Developer',
-    period: 'February 2025 — July 2025',
-    duration: '6 months',
-    description: 'Acted as the technical lead for a project serving farms across the United States.',
-    achievements: ['achievement1', 'achievement2', 'achievement3', 'achievement4'],
-    technologies: ['NodeJS', 'NestJS', 'Prisma', 'PostgreSQL', 'AWS'],
-    website: 'https://soilsync.bio'
+    id: 'valletta',
+    company: 'Valletta.Software',
+    position: 'Tech Lead / Full-Stack Developer',
+    period: 'February 2025 — Present',
+    duration: '1 year 3 months',
+    description: 'Current role. Led and delivered two client products for US market.',
+    achievements: ['achievement1', 'achievement2', 'achievement3', 'achievement4', 'achievement5'],
+    technologies: ['NodeJS', 'NestJS', 'TypeORM', 'Prisma', 'PostgreSQL', 'AWS', 'AI Prompting'],
+    website: 'https://vallettasoftware.com/',
+    projectLinks: [
+      { label: 'Zirtue', url: 'https://zirtue.com' },
+      { label: 'SoilSync', url: 'https://soilsync.bio' },
+    ],
   },
   {
     id: 'aithor',

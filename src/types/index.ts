@@ -7,6 +7,10 @@ export interface Experience {
   description: string;
   achievements: string[];
   technologies: string[];
+  projectLinks?: Array<{
+    label: string;
+    url: string;
+  }>;
   logo?: string;
   website?: string;
 }

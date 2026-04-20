@@ -76,16 +76,12 @@
     "careerStart": "Career started in 2007 as an HTML coder",
     "viewLinkedIn": "View full profile on LinkedIn",
     "achievements": {
-      "zirtue": {
-        "achievement1": "Designed and integrated service notifications using AWS SNS/SQS",
-        "achievement2": "Implemented negative payment scenarios and failure flows",
-        "achievement3": "Set up testing processes and covered critical components with tests"
-      },
-      "soilsync": {
-        "achievement1": "Acted as the technical lead for a project serving farms across the United States",
-        "achievement2": "Designed and implemented backend architecture and cloud infrastructure",
-        "achievement3": "Worked cross-functionally with DevOps, frontend teams, and stakeholders",
-        "achievement4": "Ensured system scalability, reliability, and maintainability"
+      "valletta": {
+        "achievement1": "Current role as Tech Lead / Full-Stack Developer at Valletta.Software",
+        "achievement2": "Led delivery of two client projects: Zirtue and SoilSync",
+        "achievement3": "Designed backend architecture and cloud infrastructure to ensure scalability and reliability",
+        "achievement4": "Implemented AWS SNS/SQS integrations, payment failure handling, and critical negative scenarios",
+        "achievement5": "Established testing processes and coordinated work across frontend, DevOps, and stakeholders"
       },
       "aithor": {
         "achievement1": "Developed new functionality for multiple websites, refactored old solutions",
