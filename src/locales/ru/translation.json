@@ -75,6 +75,81 @@
     "technologies": "Технологии:",
     "careerStart": "Карьера началась в 2007 году как HTML-кодер",
     "viewLinkedIn": "Посмотреть полный профиль на LinkedIn",
+    "projects": "Проекты:",
+    "positions": {
+      "valletta": {
+        "position": "Тех Лид / Full-Stack разработчик",
+        "period": "Февраль 2025 — настоящее время",
+        "duration": "1 год 3 месяца",
+        "description": "Текущее место работы. Руководил разработкой двух клиентских продуктов для рынка США."
+      },
+      "aithor": {
+        "position": "Full-Stack разработчик",
+        "period": "Июль 2024 — Ноябрь 2024",
+        "duration": "5 месяцев",
+        "description": "Разработка платформы на базе ИИ"
+      },
+      "impress": {
+        "position": "Full-Stack разработчик",
+        "period": "Июль 2023 — Июль 2024",
+        "duration": "1 год 1 месяц",
+        "description": "Full-stack разработка и системная интеграция"
+      },
+      "infobip": {
+        "position": "Backend разработчик",
+        "period": "Декабрь 2018 — Июнь 2023",
+        "duration": "4 года 6 месяцев",
+        "description": "Разработка платформы веб-инфраструктуры"
+      },
+      "alfabank": {
+        "position": "Ведущий Frontend разработчик",
+        "period": "Январь 2017 — Декабрь 2018",
+        "duration": "1 год 11 месяцев",
+        "description": "Разработка банковских приложений"
+      },
+      "semrush": {
+        "position": "Full-Stack разработчик",
+        "period": "Июль 2015 — Июль 2016",
+        "duration": "1 год 1 месяц",
+        "description": "Разработка внутреннего продукта"
+      },
+      "geometria": {
+        "position": "Frontend разработчик",
+        "period": "Декабрь 2013 — Июль 2015",
+        "duration": "1 год 8 месяцев",
+        "description": "Frontend разработка на AngularJS"
+      },
+      "realweb": {
+        "position": "Frontend/Backend разработчик",
+        "period": "Декабрь 2011 — Май 2012",
+        "duration": "6 месяцев",
+        "description": "Разработка нового продукта компании"
+      },
+      "realweb-early": {
+        "position": "Frontend разработчик",
+        "period": "Ноябрь 2009 — Декабрь 2011",
+        "duration": "2 года 2 месяца",
+        "description": "Верстка HTML и интеграция шаблонов"
+      },
+      "webmaster": {
+        "position": "HTML верстальщик",
+        "period": "Апрель 2008 — Октябрь 2009",
+        "duration": "1 год 7 месяцев",
+        "description": "Разработка коммерческих сайтов"
+      },
+      "altitudo": {
+        "position": "HTML верстальщик",
+        "period": "Сентябрь 2007 — Апрель 2008",
+        "duration": "8 месяцев",
+        "description": "Коммерческие сайты и интеграция с CMS"
+      },
+      "freelance": {
+        "position": "HTML верстальщик",
+        "period": "Январь 2007 — Август 2007",
+        "duration": "8 месяцев",
+        "description": "Создание и поддержка сайтов"
+      }
+    },
     "achievements": {
       "valletta": {
         "achievement1": "Веду текущее место работы как Tech Lead / Full-Stack Developer в Valletta.Software",

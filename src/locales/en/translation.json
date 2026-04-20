@@ -75,6 +75,81 @@
     "technologies": "Technologies:",
     "careerStart": "Career started in 2007 as an HTML coder",
     "viewLinkedIn": "View full profile on LinkedIn",
+    "projects": "Projects:",
+    "positions": {
+      "valletta": {
+        "position": "Tech Lead / Full-Stack Developer",
+        "period": "February 2025 — Present",
+        "duration": "1 year 3 months",
+        "description": "Current role. Led and delivered two client products for US market."
+      },
+      "aithor": {
+        "position": "FullStack Developer",
+        "period": "July 2024 — November 2024",
+        "duration": "5 months",
+        "description": "AI-powered platform development"
+      },
+      "impress": {
+        "position": "Fullstack Developer",
+        "period": "July 2023 — July 2024",
+        "duration": "1 year 1 month",
+        "description": "Full-stack development and system integration"
+      },
+      "infobip": {
+        "position": "Backend Developer",
+        "period": "December 2018 — June 2023",
+        "duration": "4 years 6 months",
+        "description": "Web infrastructure platform development"
+      },
+      "alfabank": {
+        "position": "Lead Frontend Developer",
+        "period": "January 2017 — December 2018",
+        "duration": "1 year 11 months",
+        "description": "Banking applications development"
+      },
+      "semrush": {
+        "position": "Fullstack Developer",
+        "period": "July 2015 — July 2016",
+        "duration": "1 year 1 month",
+        "description": "Internal product development"
+      },
+      "geometria": {
+        "position": "Frontend Developer",
+        "period": "December 2013 — July 2015",
+        "duration": "1 year 8 months",
+        "description": "Frontend development with AngularJS"
+      },
+      "realweb": {
+        "position": "Frontend/Backend Developer",
+        "period": "December 2011 — May 2012",
+        "duration": "6 months",
+        "description": "New company project development"
+      },
+      "realweb-early": {
+        "position": "Frontend Developer",
+        "period": "November 2009 — December 2011",
+        "duration": "2 years 2 months",
+        "description": "HTML coding and template integration"
+      },
+      "webmaster": {
+        "position": "HTML Coder",
+        "period": "April 2008 — October 2009",
+        "duration": "1 year 7 months",
+        "description": "Commercial sites development"
+      },
+      "altitudo": {
+        "position": "HTML Coder",
+        "period": "September 2007 — April 2008",
+        "duration": "8 months",
+        "description": "Commercial sites and CMS integration"
+      },
+      "freelance": {
+        "position": "HTML coder",
+        "period": "January 2007 — August 2007",
+        "duration": "8 months",
+        "description": "Website creation and support"
+      }
+    },
     "achievements": {
       "valletta": {
         "achievement1": "Current role as Tech Lead / Full-Stack Developer at Valletta.Software",

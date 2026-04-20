@@ -75,7 +75,89 @@
     "technologies": "טכנולוגיות:",
     "careerStart": "הקריירה החלה בשנת 2007 כקודד HTML",
     "viewLinkedIn": "צפה בפרופיל המלא ב-LinkedIn",
+    "projects": "פרויקטים:",
+    "positions": {
+      "valletta": {
+        "position": "Tech Lead / מפתח Full-Stack",
+        "period": "פברואר 2025 — הווה",
+        "duration": "שנה ו-3 חודשים",
+        "description": "תפקיד נוכחי. הוביל ופיתח שני מוצרי לקוח לשוק האמריקאי."
+      },
+      "aithor": {
+        "position": "מפתח Full-Stack",
+        "period": "יולי 2024 — נובמבר 2024",
+        "duration": "5 חודשים",
+        "description": "פיתוח פלטפורמה מבוססת AI"
+      },
+      "impress": {
+        "position": "מפתח Full-Stack",
+        "period": "יולי 2023 — יולי 2024",
+        "duration": "שנה וחודש",
+        "description": "פיתוח full-stack ואינטגרציה של מערכות"
+      },
+      "infobip": {
+        "position": "מפתח Backend",
+        "period": "דצמבר 2018 — יוני 2023",
+        "duration": "4 שנים ו-6 חודשים",
+        "description": "פיתוח פלטפורמת תשתית ווב"
+      },
+      "alfabank": {
+        "position": "מפתח Frontend בכיר",
+        "period": "ינואר 2017 — דצמבר 2018",
+        "duration": "שנה ו-11 חודשים",
+        "description": "פיתוח אפליקציות בנקאיות"
+      },
+      "semrush": {
+        "position": "מפתח Full-Stack",
+        "period": "יולי 2015 — יולי 2016",
+        "duration": "שנה וחודש",
+        "description": "פיתוח מוצר פנימי"
+      },
+      "geometria": {
+        "position": "מפתח Frontend",
+        "period": "דצמבר 2013 — יולי 2015",
+        "duration": "שנה ו-8 חודשים",
+        "description": "פיתוח frontend עם AngularJS"
+      },
+      "realweb": {
+        "position": "מפתח Frontend/Backend",
+        "period": "דצמבר 2011 — מאי 2012",
+        "duration": "6 חודשים",
+        "description": "פיתוח פרויקט חדש בחברה"
+      },
+      "realweb-early": {
+        "position": "מפתח Frontend",
+        "period": "נובמבר 2009 — דצמבר 2011",
+        "duration": "שנתיים ו-2 חודשים",
+        "description": "קידוד HTML ואינטגרציה של תבניות"
+      },
+      "webmaster": {
+        "position": "קודד HTML",
+        "period": "אפריל 2008 — אוקטובר 2009",
+        "duration": "שנה ו-7 חודשים",
+        "description": "פיתוח אתרים מסחריים"
+      },
+      "altitudo": {
+        "position": "קודד HTML",
+        "period": "ספטמבר 2007 — אפריל 2008",
+        "duration": "8 חודשים",
+        "description": "אתרים מסחריים ואינטגרציה עם CMS"
+      },
+      "freelance": {
+        "position": "קודד HTML",
+        "period": "ינואר 2007 — אוגוסט 2007",
+        "duration": "8 חודשים",
+        "description": "יצירה ותמיכה באתרים"
+      }
+    },
     "achievements": {
+      "valletta": {
+        "achievement1": "תפקיד נוכחי כ-Tech Lead / מפתח Full-Stack ב-Valletta.Software",
+        "achievement2": "הוביל את פיתוח שני פרויקטי לקוח: Zirtue ו-SoilSync",
+        "achievement3": "תכנן ארכיטקטורת backend ותשתית ענן להבטחת מדרגיות ואמינות",
+        "achievement4": "יישם אינטגרציות AWS SNS/SQS, טיפול בכשלי תשלום וסצנריות שגיאה קריטיות",
+        "achievement5": "בנה תהליכי בדיקות ותיאם עבודה עם frontend, DevOps ובעלי עניין"
+      },
       "zirtue": {
         "achievement1": "עיצב ושילב התראות שירות באמצעות AWS SNS/SQS",
         "achievement2": "יישם תרחישי תשלום שליליים וזרימות כשל",

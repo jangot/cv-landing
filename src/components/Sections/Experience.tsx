@@ -130,7 +130,7 @@ const Experience: React.FC = () => {
                         mb: 1,
                       }}
                     >
-                      {experience.position}
+                      {t(`experience.positions.${experience.id}.position`)}
                     </Typography>
 
                     <Typography
@@ -141,7 +141,7 @@ const Experience: React.FC = () => {
                         fontStyle: 'italic',
                       }}
                     >
-                      {experience.description}
+                      {t(`experience.positions.${experience.id}.description`)}
                     </Typography>
                     {experience.projectLinks?.length ? (
                       <Typography
@@ -155,7 +155,7 @@ const Experience: React.FC = () => {
                           gap: 1,
                         }}
                       >
-                        Projects:
+                        {t('experience.projects')}
                         {experience.projectLinks.map((project, idx) => (
                           <React.Fragment key={project.url}>
                             <Link
@@ -184,11 +184,11 @@ const Experience: React.FC = () => {
                         fontSize: 16
                       }} />
                       <Typography variant="body2" color="text.secondary">
-                        {experience.period}
+                        {t(`experience.positions.${experience.id}.period`)}
                       </Typography>
                     </Box>
                     <Chip
-                      label={experience.duration}
+                      label={t(`experience.positions.${experience.id}.duration`)}
                       size="small"
                       color="secondary"
                       variant="outlined"
