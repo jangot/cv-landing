@@ -39,3 +39,11 @@ Supported languages: `en`, `ru`, `he`. Language preference is persisted in `loca
 ### CV PDF files
 
 Language-specific PDFs live in `public/cv-files/`. The Hero section links to `/cv-files/Pavel Pulin Fullstack [lang].pdf` based on current language.
+
+## Agent instructions: data sources
+
+- Treat `src/data/*` as the single source of truth for resume/landing content.
+- Treat `src/locales/*/translation.json` as the source of all translatable UI strings and achievement texts.
+- Treat files in `public/cv-files/` as generated artifacts, not editable source content.
+- When content is changed in `src/data/*` or `src/locales/*`, regenerate PDFs via `npm run gen:cv`.
+- Keep `docs/project-data-flow.md` up to date whenever data flow or source-of-truth rules change.
