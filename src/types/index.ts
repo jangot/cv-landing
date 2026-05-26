@@ -1,3 +1,8 @@
+export interface ExperienceProjectSection {
+  id: string;
+  achievements: string[];
+}
+
 export interface Experience {
   id: string;
   company: string;
@@ -6,6 +11,7 @@ export interface Experience {
   duration: string;
   description: string;
   achievements: string[];
+  projectSections?: ExperienceProjectSection[];
   technologies: string[];
   projectLinks?: Array<{
     label: string;

@@ -133,16 +133,18 @@ const Experience: React.FC = () => {
                       {t(`experience.positions.${experience.id}.position`)}
                     </Typography>
 
-                    <Typography
-                      variant="body2"
-                      sx={{
-                        color: 'text.secondary',
-                        mb: experience.projectLinks?.length ? 1 : 2,
-                        fontStyle: 'italic',
-                      }}
-                    >
-                      {t(`experience.positions.${experience.id}.description`)}
-                    </Typography>
+                    {!experience.projectSections?.length ? (
+                      <Typography
+                        variant="body2"
+                        sx={{
+                          color: 'text.secondary',
+                          mb: experience.projectLinks?.length ? 1 : 2,
+                          fontStyle: 'italic',
+                        }}
+                      >
+                        {t(`experience.positions.${experience.id}.description`)}
+                      </Typography>
+                    ) : null}
                     {experience.projectLinks?.length ? (
                       <Typography
                         variant="body2"
@@ -201,22 +203,55 @@ const Experience: React.FC = () => {
                   <Typography variant="body1" sx={{ fontWeight: 600, mb: 1, color: 'text.primary' }}>
                     {t('experience.keyAchievements')}
                   </Typography>
-                  <Box component="ul" sx={{ pl: 2, m: 0 }}>
-                    {experience.achievements.map((achievement, idx) => (
-                      <Typography
-                        key={idx}
-                        component="li"
-                        variant="body2"
-                        sx={{
-                          color: 'text.secondary',
-                          mb: 0.5,
-                          lineHeight: 1.6,
-                        }}
-                      >
-                        {t(`experience.achievements.${experience.id}.achievement${idx + 1}`)}
-                      </Typography>
-                    ))}
-                  </Box>
+                  {experience.projectSections?.length ? (
+                    experience.projectSections.map((section) => (
+                      <Box key={section.id} sx={{ mb: 2 }}>
+                        <Typography
+                          variant="body2"
+                          sx={{
+                            color: 'text.secondary',
+                            mb: 1,
+                            fontStyle: 'italic',
+                          }}
+                        >
+                          {t(`experience.positions.${experience.id}.sections.${section.id}.summary`)}
+                        </Typography>
+                        <Box component="ul" sx={{ pl: 2, m: 0 }}>
+                          {section.achievements.map((achievementKey, idx) => (
+                            <Typography
+                              key={idx}
+                              component="li"
+                              variant="body2"
+                              sx={{
+                                color: 'text.secondary',
+                                mb: 0.5,
+                                lineHeight: 1.6,
+                              }}
+                            >
+                              {t(`experience.positions.${experience.id}.sections.${section.id}.${achievementKey}`)}
+                            </Typography>
+                          ))}
+                        </Box>
+                      </Box>
+                    ))
+                  ) : (
+                    <Box component="ul" sx={{ pl: 2, m: 0 }}>
+                      {experience.achievements.map((achievement, idx) => (
+                        <Typography
+                          key={idx}
+                          component="li"
+                          variant="body2"
+                          sx={{
+                            color: 'text.secondary',
+                            mb: 0.5,
+                            lineHeight: 1.6,
+                          }}
+                        >
+                          {t(`experience.achievements.${experience.id}.achievement${idx + 1}`)}
+                        </Typography>
+                      ))}
+                    </Box>
+                  )}
                 </Box>
 
                 <Box>

@@ -81,7 +81,25 @@
         "position": "Tech Lead / מפתח Full-Stack",
         "period": "פברואר 2025 — הווה",
         "duration": "שנה ו-3 חודשים",
-        "description": "תפקיד נוכחי. הוביל ופיתח שני מוצרי לקוח לשוק האמריקאי."
+        "description": "Tech Lead: שני מוצרי לקוח לשוק האמריקאי.",
+        "sections": {
+          "soilsync": {
+            "summary": "Technical Lead לפלטפורמה חקלאית המשרתת חוות ברחבי ארצות הברית.",
+            "achievement1": "תכנן ויישם ארכיטקטורת backend ותשתית ענן מאפס",
+            "achievement2": "הציג תהליך הנדסה AI-first להאצת פיתוח ואספקה",
+            "achievement3": "שיתף פעולה עם DevOps, צוותי frontend ובעלי עניין לפתרונות scalable",
+            "achievement4": "הוביל החלטות ארכיטקטוניות למערכות מבוזרות עם דגש על scalability ואמינות",
+            "achievement5": "הבטיח maintainability באמצעות best practices הנדסיים"
+          },
+          "zirtue": {
+            "summary": "עבודה על פלטפורמת P2P lending המאפשרת תהליכי הלוואה והשאלה מאובטחים.",
+            "achievement1": "תכנן זרימות התראות בין-שירותיות באמצעות AWS SNS ו-SQS",
+            "achievement2": "יישם טיפול בכשלי תשלום ותרחישי תשלום שליליים",
+            "achievement3": "שיפר אמינות של תקשורת מבוזרת ועיבוד תשלומים",
+            "achievement4": "הקים תהליכי unit ו-integration testing לרכיבים קריטיים",
+            "achievement5": "הפחית regressions והגביר יציבות מערכת באמצעות בדיקות מובנות"
+          }
+        }
       },
       "aithor": {
         "position": "מפתח Full-Stack",
@@ -151,13 +169,6 @@
       }
     },
     "achievements": {
-      "valletta": {
-        "achievement1": "תפקיד נוכחי כ-Tech Lead / מפתח Full-Stack ב-Valletta.Software",
-        "achievement2": "הוביל את פיתוח שני פרויקטי לקוח: Zirtue ו-SoilSync",
-        "achievement3": "תכנן ארכיטקטורת backend ותשתית ענן להבטחת מדרגיות ואמינות",
-        "achievement4": "יישם אינטגרציות AWS SNS/SQS, טיפול בכשלי תשלום וסצנריות שגיאה קריטיות",
-        "achievement5": "בנה תהליכי בדיקות ותיאם עבודה עם frontend, DevOps ובעלי עניין"
-      },
       "zirtue": {
         "achievement1": "עיצב ושילב התראות שירות באמצעות AWS SNS/SQS",
         "achievement2": "יישם תרחישי תשלום שליליים וזרימות כשל",

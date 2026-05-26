@@ -19,8 +19,8 @@ describe('CV translation resolver', () => {
   });
 
   it('resolves nested key for achievements', () => {
-    const result = t(enTranslations, 'experience.achievements.zirtue.achievement1');
-    expect(result).not.toBe('experience.achievements.zirtue.achievement1');
+    const result = t(enTranslations, 'experience.achievements.aithor.achievement1');
+    expect(result).not.toBe('experience.achievements.aithor.achievement1');
     expect(typeof result).toBe('string');
   });
 

@@ -3,6 +3,7 @@ import * as fs from 'fs';
 import * as path from 'path';
 
 import { experienceData } from '../src/data/experience';
+import { Experience } from '../src/types';
 import { skillsData } from '../src/data/skills';
 import { projectsData } from '../src/data/projects';
 import { contactData } from '../src/data/contact';
@@ -23,6 +24,28 @@ function loadCSS(): string {
   return fs.readFileSync(path.join(__dirname, 'cv-template/style.css'), 'utf-8');
 }
 
+function renderExperienceSections(exp: Experience, translations: Record<string, any>): string {
+  if (!exp.projectSections?.length) {
+    const descriptionHTML = `<div class="experience-description">${t(translations, `experience.positions.${exp.id}.description`)}</div>`;
+    const achievementsHTML = exp.achievements
+      .map((key, i) => `<li>${t(translations, `experience.achievements.${exp.id}.achievement${i + 1}`)}</li>`)
+      .join('');
+    return `${descriptionHTML}<ul class="achievements">${achievementsHTML}</ul>`;
+  }
+
+  return exp.projectSections.map(section => {
+    const summary = t(translations, `experience.positions.${exp.id}.sections.${section.id}.summary`);
+    const achievementsHTML = section.achievements
+      .map((key) => `<li>${t(translations, `experience.positions.${exp.id}.sections.${section.id}.${key}`)}</li>`)
+      .join('');
+    return `
+      <div class="experience-section">
+        <div class="experience-description">${summary}</div>
+        <ul class="achievements">${achievementsHTML}</ul>
+      </div>`;
+  }).join('');
+}
+
 export function buildHTML(lang: Lang, translations: Record<string, any>, css: string): string {
   const isRTL = lang === 'he';
   const dir = isRTL ? 'rtl' : 'ltr';
@@ -38,17 +61,15 @@ export function buildHTML(lang: Lang, translations: Record<string, any>, css: st
   ].join(' ');
 
   const experienceHTML = experienceData.map(exp => {
-    const achievementsHTML = exp.achievements
-      .map((key, i) => `<li>${t(translations, `experience.achievements.${exp.id}.achievement${i + 1}`)}</li>`)
-      .join('');
+    const sectionsHTML = renderExperienceSections(exp, translations);
     return `
       <div class="experience-item">
         <div class="experience-header">
           <span class="company">${exp.company}</span>
-          <span class="period">${exp.period}</span>
+          <span class="period">${t(translations, `experience.positions.${exp.id}.period`)}</span>
         </div>
-        <div class="position">${exp.position}</div>
-        <ul class="achievements">${achievementsHTML}</ul>
+        <div class="position">${t(translations, `experience.positions.${exp.id}.position`)}</div>
+        ${sectionsHTML}
         <div class="technologies">${exp.technologies.join(', ')}</div>
       </div>`;
   }).join('');

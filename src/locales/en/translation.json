@@ -81,7 +81,25 @@
         "position": "Tech Lead / Full-Stack Developer",
         "period": "February 2025 — Present",
         "duration": "1 year 3 months",
-        "description": "Current role. Led and delivered two client products for US market."
+        "description": "Tech Lead delivering two client products for the US market.",
+        "sections": {
+          "soilsync": {
+            "summary": "Technical Lead for an agricultural platform serving farms across the United States.",
+            "achievement1": "Designed and implemented backend architecture and cloud infrastructure from scratch",
+            "achievement2": "Introduced an AI-first engineering workflow to accelerate development and delivery",
+            "achievement3": "Collaborated with DevOps, frontend teams, and stakeholders to deliver scalable solutions",
+            "achievement4": "Led architectural decisions for distributed systems with focus on scalability and reliability",
+            "achievement5": "Ensured maintainability through engineering best practices"
+          },
+          "zirtue": {
+            "summary": "Worked on a peer-to-peer lending platform enabling secure borrowing and lending workflows.",
+            "achievement1": "Designed inter-service notification flows using AWS SNS and SQS",
+            "achievement2": "Implemented payment failure handling and negative payment scenarios",
+            "achievement3": "Improved reliability of distributed communication and payment processing",
+            "achievement4": "Established unit and integration testing processes for critical components",
+            "achievement5": "Reduced regressions and increased system stability through structured testing"
+          }
+        }
       },
       "aithor": {
         "position": "FullStack Developer",
@@ -151,13 +169,6 @@
       }
     },
     "achievements": {
-      "valletta": {
-        "achievement1": "Current role as Tech Lead / Full-Stack Developer at Valletta.Software",
-        "achievement2": "Led delivery of two client projects: Zirtue and SoilSync",
-        "achievement3": "Designed backend architecture and cloud infrastructure to ensure scalability and reliability",
-        "achievement4": "Implemented AWS SNS/SQS integrations, payment failure handling, and critical negative scenarios",
-        "achievement5": "Established testing processes and coordinated work across frontend, DevOps, and stakeholders"
-      },
       "aithor": {
         "achievement1": "Developed new functionality for multiple websites, refactored old solutions",
         "achievement2": "Integrated payment systems Stripe and Paddle for online payment processing",

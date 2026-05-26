@@ -7,13 +7,23 @@ export const experienceData: Experience[] = [
     position: 'Tech Lead / Full-Stack Developer',
     period: 'February 2025 — Present',
     duration: '1 year 3 months',
-    description: 'Current role. Led and delivered two client products for US market.',
-    achievements: ['achievement1', 'achievement2', 'achievement3', 'achievement4', 'achievement5'],
+    description: 'Tech Lead delivering two client products for the US market: SoilSync and Zirtue.',
+    achievements: [],
+    projectSections: [
+      {
+        id: 'soilsync',
+        achievements: ['achievement1', 'achievement2', 'achievement3', 'achievement4', 'achievement5'],
+      },
+      {
+        id: 'zirtue',
+        achievements: ['achievement1', 'achievement2', 'achievement3', 'achievement4', 'achievement5'],
+      },
+    ],
     technologies: ['NodeJS', 'NestJS', 'TypeORM', 'Prisma', 'PostgreSQL', 'AWS', 'AI Prompting'],
     website: 'https://vallettasoftware.com/',
     projectLinks: [
-      { label: 'Zirtue', url: 'https://zirtue.com' },
       { label: 'SoilSync', url: 'https://soilsync.bio' },
+      { label: 'Zirtue', url: 'https://zirtue.com' },
     ],
   },
   {
